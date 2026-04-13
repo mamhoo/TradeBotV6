@@ -1,7 +1,7 @@
 """
 config.py — Load configuration from .env file
 
-v6.0 additions:
+v7.0 additions:
   GOLD_MIN_VOLUME_RATIO   — volume threshold to block signal (default 1.3)
   GOLD_MAX_ENTRY_DIST_PCT — anti-chase: max distance from EMA21 (default 0.004 = 0.4%)
   GOLD_MIN_SCORE          — minimum score to trade (default 55 overlap / 60 others)

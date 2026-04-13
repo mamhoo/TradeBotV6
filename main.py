@@ -1,5 +1,5 @@
 """
-main.py — SUPER TRADER v6.1 Entry Point
+main.py — SUPER TRADER v7.0 Entry Point
 
 FIXES from v6.0:
   [CRITICAL] P&L sync loop rewritten — matches closed ticket to signal by ticket ID,
@@ -283,10 +283,17 @@ def manage_positions():
             )
 
             # Only update if SL improves meaningfully (>0.5 pts)
-            if action == "BUY" and new_trailing <= current_sl + 0.5:
-                continue
-            if action == "SELL" and new_trailing >= current_sl - 0.5:
-                continue
+            # Also ensure breakeven lock if price moves > 1.5 ATR in profit
+            if action == "BUY":
+                if current > entry + (current_atr_val * 1.5):
+                    new_trailing = max(new_trailing, entry + 0.5)
+                if new_trailing <= current_sl + 0.5:
+                    continue
+            if action == "SELL":
+                if current < entry - (current_atr_val * 1.5):
+                    new_trailing = min(new_trailing, entry - 0.5)
+                if new_trailing >= current_sl - 0.5:
+                    continue
 
             result = mt5.order_send({
                 "action":   mt5.TRADE_ACTION_SLTP,
@@ -419,7 +426,7 @@ def refresh_balance():
 
 if __name__ == "__main__":
     log.info("=" * 60)
-    log.info("  SUPER TRADER v6.1 - Starting")
+    log.info("  SUPER TRADER v7.0 - Starting")
     log.info("=" * 60)
 
     STARTUP_TIME = datetime.now(timezone.utc)
@@ -432,7 +439,7 @@ if __name__ == "__main__":
         log.info("[BOT] Symbol: %s | Balance: $%.2f",
                  CONFIG["mt5_symbol"], CONFIG["gold_account_balance"])
         notifier.send_plain(
-            f"SUPER TRADER v6.1 Online\n"
+            f"SUPER TRADER v7.0 Online\n"
             f"Symbol: {CONFIG['mt5_symbol']}\n"
             f"Balance: ${CONFIG['gold_account_balance']:.2f}\n"
             f"Max trades/dir: 1 | Daily loss limit: 1.5%\n"

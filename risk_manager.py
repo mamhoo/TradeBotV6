@@ -1,5 +1,5 @@
 """
-risk_manager.py — SUPER TRADER v6.1 Risk Management
+risk_manager.py — SUPER TRADER v7.0 Risk Management
 
 FIXES from v6.0:
   [CRITICAL] _get_account_balance() was adding Gold + Crypto balances together,
@@ -36,7 +36,7 @@ class RiskManager:
         # ── Trade count limits ────────────────────────────────────────────────
         self.max_open_trades: int = 2
         self.max_trades_per_direction: int = 1
-        self.max_daily_trades: int = config.get("gold_max_daily_trades", 3)
+        self.max_daily_trades: int = config.get("gold_max_daily_trades", 4)
 
         # ── Daily loss limit ──────────────────────────────────────────────────
         self.max_daily_loss_pct: float = config.get("max_daily_loss_pct", 1.5)

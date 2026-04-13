@@ -1,5 +1,5 @@
 """
-gold_strategy.py — SUPER TRADER v6.1
+gold_strategy.py — SUPER TRADER v7.0
 
 FIXES from v6.0:
   [CRITICAL] Volume filter default changed 1.2 → 1.3 to match CONFIG
@@ -134,13 +134,11 @@ def check_daily_trend(symbol: str, action: str, fast: int = 21, slow: int = 55) 
     penalty = 0
 
     if action == "BUY" and d1_trend == "DOWN":
-        log.info("[GOLD] D1 gate: BUY vs Daily DOWN trend — Penalty -15 points")
-        penalty = -15
-        return True, d1_trend, penalty
+        log.info("[GOLD] D1 gate: BUY vs Daily DOWN trend — BLOCKED")
+        return False, d1_trend, 0
     elif action == "SELL" and d1_trend == "UP":
-        log.info("[GOLD] D1 gate: SELL vs Daily UP trend — Penalty -15 points")
-        penalty = -15
-        return True, d1_trend, penalty
+        log.info("[GOLD] D1 gate: SELL vs Daily UP trend — BLOCKED")
+        return False, d1_trend, 0
     else:
         log.info("[GOLD] D1 trend: %s — %s allowed", d1_trend, action)
         return True, d1_trend, penalty
@@ -551,7 +549,7 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
         tp = current_price - (sl - current_price) * rr_ratio
 
     # 16. Position sizing — [FIX] now uses broker tick_value
-    risk_pct  = config.get("gold_risk_pct", 0.75)
+    risk_pct  = config.get("gold_risk_pct", 0.25)
     lot = calculate_lot_size(
         config.get("gold_account_balance", 1000),
         risk_pct,

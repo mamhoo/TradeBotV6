@@ -1,5 +1,5 @@
 """
-smc_gold_strategy.py — Gold Strategy using Smart Money Concepts (SMC)
+smc_gold_strategy.py — Gold Strategy using Smart Money Concepts (SMC) v7.0
 
 HOW IT FITS INTO THE BOT:
   In main.py you can swap check_gold_signal() for check_gold_signal_smc()
@@ -153,7 +153,7 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
     smc_score, smc_reason = score_smc_signal(ctx, bias)
     log.info("[SMC] Score: %d | %s", smc_score, smc_reason)
 
-    min_score = config.get("gold_min_score", 55)
+    min_score = config.get("gold_min_score", 70)
     if smc_score < min_score:
         log.info("[SMC] Score %d < %d — skip", smc_score, min_score)
         return None
@@ -233,7 +233,7 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
         return None
 
     # ── 12. Position sizing ───────────────────────────────────────────────
-    risk_pct  = config.get("gold_risk_pct", 0.75)
+    risk_pct  = config.get("gold_risk_pct", 0.25)
     lot = calculate_lot_size(
         config.get("gold_account_balance", 1000),
         risk_pct,

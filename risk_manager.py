@@ -36,7 +36,7 @@ class RiskManager:
         # ── Trade count limits ────────────────────────────────────────────────
         self.max_open_trades: int = 2
         self.max_trades_per_direction: int = 1
-        self.max_daily_trades: int = 4
+        self.max_daily_trades: int = config.get("gold_max_daily_trades", 3)
 
         # ── Daily loss limit ──────────────────────────────────────────────────
         self.max_daily_loss_pct: float = config.get("max_daily_loss_pct", 1.5)

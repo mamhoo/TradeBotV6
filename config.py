@@ -55,7 +55,7 @@ CONFIG = {
     # ── Gold Strategy ─────────────────────────────────────────────────────────
     "gold_lot_base":        parse_float(os.getenv("GOLD_LOT_BASE"),       0.01),
     "gold_account_balance": parse_float(os.getenv("GOLD_ACCOUNT_BALANCE"), 50),
-    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        1.0),
+    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        0.5),
     "gold_rr_ratio":        parse_float(os.getenv("GOLD_RR_RATIO"),        1.5),
     "gold_sr_lookback":     parse_int(os.getenv("GOLD_SR_LOOKBACK"),       200),
     "gold_sr_touches":      parse_int(os.getenv("GOLD_SR_TOUCHES"),        2),
@@ -68,8 +68,8 @@ CONFIG = {
     "gold_max_lot":         parse_float(os.getenv("GOLD_MAX_LOT"),         5.0),
 
     # [NEW v6.0] Signal quality gates
-    "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.3),
-    "gold_max_entry_dist_pct": parse_float(os.getenv("GOLD_MAX_ENTRY_DIST_PCT"), 0.004),
+    "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.15),
+    "gold_max_entry_dist_pct": parse_float(os.getenv("GOLD_MAX_ENTRY_DIST_PCT"), 0.006),
     "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            55),
     "gold_volume_filter":      True,
 

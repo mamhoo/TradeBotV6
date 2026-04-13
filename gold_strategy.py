@@ -202,21 +202,24 @@ def check_zone(zones, current_price, action, max_dist_pct: float = 0.008) -> Tup
 
 # ── Anti-chasing ───────────────────────────────────────────────────────────────
 
-def check_not_chasing(df_m15, action: str, fast_ema: int = 21, max_dist_pct: float = 0.004) -> Tuple[bool, float]:
+def check_not_chasing(df_m15, action: str, fast_ema: int = 21, atr_m15: float = 0.0, atr_multiplier: float = 1.5) -> Tuple[bool, float]:
     current_price = df_m15["close"].iloc[-1]
     ema_val       = ema(df_m15["close"], fast_ema).iloc[-1]
-    dist_pct      = abs(current_price - ema_val) / ema_val
+    
+    # Use ATR for dynamic distance check
+    max_dist_points = atr_m15 * atr_multiplier
+    actual_dist     = abs(current_price - ema_val)
 
-    if action == "BUY" and current_price > ema_val * (1 + max_dist_pct):
-        log.info("[GOLD] Anti-chase: price %.2f too far above EMA21 %.2f (%.2f%%)",
-                 current_price, ema_val, dist_pct * 100)
-        return False, dist_pct
-    if action == "SELL" and current_price < ema_val * (1 - max_dist_pct):
-        log.info("[GOLD] Anti-chase: price %.2f too far below EMA21 %.2f (%.2f%%)",
-                 current_price, ema_val, dist_pct * 100)
-        return False, dist_pct
+    if action == "BUY" and current_price > ema_val + max_dist_points:
+        log.info("[GOLD] Anti-chase: price %.2f too far above EMA21 %.2f (dist %.2f > %.2f ATR)",
+                 current_price, ema_val, actual_dist, max_dist_points)
+        return False, actual_dist
+    if action == "SELL" and current_price < ema_val - max_dist_points:
+        log.info("[GOLD] Anti-chase: price %.2f too far below EMA21 %.2f (dist %.2f > %.2f ATR)",
+                 current_price, ema_val, actual_dist, max_dist_points)
+        return False, actual_dist
 
-    return True, dist_pct
+    return True, actual_dist
 
 
 # ── Dynamic R:R ─────────────────────────────────────────────────────────────────
@@ -328,10 +331,10 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
     current_price = df_m5["close"].iloc[-1]
     current_atr   = atr(df_m5, 14).iloc[-1]
 
-    # 5. Volume confirmation (BLOCKS)
-    # [FIX] Default now 1.3 to match CONFIG (was 1.2 in function signature)
+    # 5. Volume confirmation (BLOCKS) - Now dynamic per session
+    session_min_volume_ratio = session_params.get("min_volume_ratio", config.get("gold_min_volume_ratio", 1.15))
     vol_ok, vol_ratio = check_volume_confirmation(
-        df_m5, min_volume_ratio=config.get("gold_min_volume_ratio", 1.3)
+        df_m5, min_volume_ratio=session_min_volume_ratio
     )
     if not vol_ok:
         log.info("[GOLD] Volume %.2fx below threshold — skip", vol_ratio)
@@ -359,10 +362,11 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
         return None
 
     # 8. Anti-chasing
-    not_chasing, dist_pct = check_not_chasing(
+    not_chasing, dist_val = check_not_chasing(
         df_m15, action,
         fast_ema=config.get("gold_ema_fast", 21),
-        max_dist_pct=config.get("gold_max_entry_dist_pct", 0.004),
+        atr_m15=current_atr,
+        atr_multiplier=config.get("gold_anti_chase_atr_mult", 1.5),
     )
     if not not_chasing:
         return None
@@ -416,9 +420,17 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
         score += 15
         reasons.append(macd_signal)
 
+    # RSI Divergence Integration
+    rsi_div = rsi_divergence(df_m15, config.get("gold_rsi_period", 14), config.get("gold_rsi_lookback", 20))
     if rsi_label == "GOOD_ZONE":
         score += 20
         reasons.append("RSI_GOOD")
+    elif rsi_div == "BULLISH_DIV" and action == "BUY":
+        score += 25
+        reasons.append("RSI_BULL_DIV")
+    elif rsi_div == "BEARISH_DIV" and action == "SELL":
+        score += 25
+        reasons.append("RSI_BEAR_DIV")
     else:
         score += 10
         reasons.append(rsi_label)
@@ -486,13 +498,24 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
 
     h1_atr = atr(df_h1, 14).iloc[-1]
 
+    # Market Structure Stop Loss
+    # Calculate potential SL based on ATR
+    atr_sl_buy  = current_price - h1_atr * config.get("gold_sl_atr_mult", 1.2) - spread_buf
+    atr_sl_sell = current_price + h1_atr * config.get("gold_sl_atr_mult", 1.2) + spread_buf
+
+    # Calculate potential SL based on nearest S/R zone
+    sr_sl_buy  = (zone_obj.price - (current_atr * 0.5)) if at_zone and action == "BUY" else float('-inf')
+    sr_sl_sell = (zone_obj.price + (current_atr * 0.5)) if at_zone and action == "SELL" else float('inf')
+
     if action == "BUY":
-        sl = current_price - h1_atr * 1.2 - spread_buf
+        # For BUY, SL should be below current price. Choose the higher (less risky) of ATR-SL or SR-SL
+        sl = max(atr_sl_buy, sr_sl_buy)
         if (current_price - sl) < min_stop:
             sl = current_price - min_stop - spread_buf
         tp = current_price + (current_price - sl) * rr_ratio
     else:
-        sl = current_price + h1_atr * 1.2 + spread_buf
+        # For SELL, SL should be above current price. Choose the lower (less risky) of ATR-SL or SR-SL
+        sl = min(atr_sl_sell, sr_sl_sell)
         if (sl - current_price) < min_stop:
             sl = current_price + min_stop + spread_buf
         tp = current_price - (sl - current_price) * rr_ratio

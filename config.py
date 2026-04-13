@@ -69,9 +69,12 @@ CONFIG = {
 
     # [NEW v6.0] Signal quality gates
     "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.15),
-    "gold_max_entry_dist_pct": parse_float(os.getenv("GOLD_MAX_ENTRY_DIST_PCT"), 0.006),
+
     "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            55),
     "gold_volume_filter":      True,
+    "gold_anti_chase_atr_mult": parse_float(os.getenv("GOLD_ANTI_CHASE_ATR_MULT"), 1.5),
+    "gold_rsi_lookback":        parse_int(os.getenv("GOLD_RSI_LOOKBACK"),        20),
+    "gold_sl_atr_mult":         parse_float(os.getenv("GOLD_SL_ATR_MULT"),         1.2),
 
     # ── Spread Control ────────────────────────────────────────────────────────
     "gold_max_spread_pips": parse_int(os.getenv("GOLD_MAX_SPREAD_PIPS"), 80),

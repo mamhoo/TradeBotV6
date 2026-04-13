@@ -1,0 +1,2029 @@
+2026-04-10 18:11:50,483 [INFO] ============================================================
+2026-04-10 18:11:50,484 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-10 18:11:50,484 [INFO] ============================================================
+2026-04-10 18:11:55,193 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $0.00 | Equity: $2.11
+2026-04-10 18:11:55,194 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 18:11:55,195 [INFO] [BOT] Symbol: GOLD | Balance: $0.00
+2026-04-10 18:11:58,609 [INFO] [MT5] Balance: $0.00 | Equity: $2.11
+2026-04-10 18:11:58,647 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-10 18:11:58,649 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 18:11:58,650 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 18:11:58,651 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 18:12:58,657 [INFO] [GOLD] Warmup: 52s remaining (scanning only)
+2026-04-10 18:13:58,662 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 18:14:05,985 [INFO] [GOLD] 18:14 Thai | Session: LONDON
+2026-04-10 18:14:06,174 [INFO] [GOLD] Volume 0.75x below threshold — skip
+2026-04-10 18:15:06,184 [INFO] [GOLD] 18:15 Thai | Session: LONDON
+2026-04-10 18:15:06,197 [INFO] [GOLD] Volume 0.89x below threshold — skip
+2026-04-10 18:15:29,718 [INFO] [BOT] Stopped by user
+2026-04-10 18:15:34,168 [INFO] ============================================================
+2026-04-10 18:15:34,168 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-10 18:15:34,169 [INFO] ============================================================
+2026-04-10 18:15:34,193 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 18:15:34,194 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 18:15:34,195 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 18:15:38,188 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 18:15:38,190 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-10 18:15:38,194 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 18:15:38,196 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 18:15:38,196 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 18:16:38,202 [INFO] [GOLD] Warmup: 56s remaining (scanning only)
+2026-04-10 18:17:38,210 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 18:17:47,451 [INFO] [GOLD] 18:17 Thai | Session: LONDON
+2026-04-10 18:17:47,486 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-10 18:18:47,494 [INFO] [GOLD] 18:18 Thai | Session: LONDON
+2026-04-10 18:18:47,508 [INFO] [GOLD] Volume 0.81x below threshold — skip
+2026-04-10 18:19:47,539 [INFO] [GOLD] 18:19 Thai | Session: LONDON
+2026-04-10 18:19:47,567 [INFO] [GOLD] Volume 1.03x below threshold — skip
+2026-04-10 18:20:47,574 [INFO] [GOLD] 18:20 Thai | Session: LONDON
+2026-04-10 18:20:47,598 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-10 18:21:47,606 [INFO] [GOLD] 18:21 Thai | Session: LONDON
+2026-04-10 18:21:47,630 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-10 18:22:47,636 [INFO] [GOLD] 18:22 Thai | Session: LONDON
+2026-04-10 18:22:47,654 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-10 18:23:47,662 [INFO] [GOLD] 18:23 Thai | Session: LONDON
+2026-04-10 18:23:47,684 [INFO] [GOLD] Volume 0.93x below threshold — skip
+2026-04-10 18:24:47,693 [INFO] [GOLD] 18:24 Thai | Session: LONDON
+2026-04-10 18:24:47,708 [INFO] [GOLD] Volume 1.15x below threshold — skip
+2026-04-10 18:25:47,713 [INFO] [GOLD] 18:25 Thai | Session: LONDON
+2026-04-10 18:25:47,728 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-10 18:26:47,733 [INFO] [GOLD] 18:26 Thai | Session: LONDON
+2026-04-10 18:26:47,748 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-10 18:27:47,753 [INFO] [GOLD] 18:27 Thai | Session: LONDON
+2026-04-10 18:27:47,770 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-10 18:28:47,779 [INFO] [GOLD] 18:28 Thai | Session: LONDON
+2026-04-10 18:28:47,795 [INFO] [GOLD] Volume 0.79x below threshold — skip
+2026-04-10 18:29:47,800 [INFO] [GOLD] 18:29 Thai | Session: LONDON
+2026-04-10 18:29:47,820 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-10 18:30:47,827 [INFO] [GOLD] 18:30 Thai | Session: LONDON
+2026-04-10 18:30:47,848 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-10 18:31:47,856 [INFO] [GOLD] 18:31 Thai | Session: LONDON
+2026-04-10 18:31:47,874 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-10 18:32:47,879 [INFO] [GOLD] 18:32 Thai | Session: LONDON
+2026-04-10 18:32:47,894 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-10 18:33:47,901 [INFO] [GOLD] 18:33 Thai | Session: LONDON
+2026-04-10 18:33:47,921 [INFO] [GOLD] Volume 0.83x below threshold — skip
+2026-04-10 18:34:47,927 [INFO] [GOLD] 18:34 Thai | Session: LONDON
+2026-04-10 18:34:47,941 [INFO] [GOLD] Volume 1.04x below threshold — skip
+2026-04-10 18:35:47,946 [INFO] [GOLD] 18:35 Thai | Session: LONDON
+2026-04-10 18:35:47,966 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-10 18:36:47,975 [INFO] [GOLD] 18:36 Thai | Session: LONDON
+2026-04-10 18:36:47,990 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-10 18:37:47,996 [INFO] [GOLD] 18:37 Thai | Session: LONDON
+2026-04-10 18:37:48,017 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-10 18:38:48,022 [INFO] [GOLD] 18:38 Thai | Session: LONDON
+2026-04-10 18:38:48,041 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-10 18:39:48,047 [INFO] [GOLD] 18:39 Thai | Session: LONDON
+2026-04-10 18:39:48,064 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-10 18:40:48,075 [INFO] [GOLD] 18:40 Thai | Session: LONDON
+2026-04-10 18:40:48,089 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-10 18:41:48,095 [INFO] [GOLD] 18:41 Thai | Session: LONDON
+2026-04-10 18:41:48,118 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-10 18:42:48,124 [INFO] [GOLD] 18:42 Thai | Session: LONDON
+2026-04-10 18:42:48,145 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-10 18:43:48,154 [INFO] [GOLD] 18:43 Thai | Session: LONDON
+2026-04-10 18:43:48,173 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-10 18:44:48,184 [INFO] [GOLD] 18:44 Thai | Session: LONDON
+2026-04-10 18:44:48,203 [INFO] [GOLD] Volume 0.86x below threshold — skip
+2026-04-10 18:45:38,208 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 18:45:48,210 [INFO] [GOLD] 18:45 Thai | Session: LONDON
+2026-04-10 18:45:48,230 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-10 18:46:48,240 [INFO] [GOLD] 18:46 Thai | Session: LONDON
+2026-04-10 18:46:48,262 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-10 18:47:48,270 [INFO] [GOLD] 18:47 Thai | Session: LONDON
+2026-04-10 18:47:48,290 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-10 18:48:48,297 [INFO] [GOLD] 18:48 Thai | Session: LONDON
+2026-04-10 18:48:48,317 [INFO] [GOLD] Volume 0.79x below threshold — skip
+2026-04-10 18:49:48,324 [INFO] [GOLD] 18:49 Thai | Session: LONDON
+2026-04-10 18:49:48,350 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-10 18:50:48,355 [INFO] [GOLD] 18:50 Thai | Session: LONDON
+2026-04-10 18:50:48,376 [INFO] [GOLD] Volume 0.12x below threshold — skip
+2026-04-10 18:51:48,382 [INFO] [GOLD] 18:51 Thai | Session: LONDON
+2026-04-10 18:51:48,404 [INFO] [GOLD] Volume 0.39x below threshold — skip
+2026-04-10 18:52:48,410 [INFO] [GOLD] 18:52 Thai | Session: LONDON
+2026-04-10 18:52:48,423 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-10 18:53:48,430 [INFO] [GOLD] 18:53 Thai | Session: LONDON
+2026-04-10 18:53:48,450 [INFO] [GOLD] Volume 0.71x below threshold — skip
+2026-04-10 18:54:48,456 [INFO] [GOLD] 18:54 Thai | Session: LONDON
+2026-04-10 18:54:48,475 [INFO] [GOLD] Volume 0.88x below threshold — skip
+2026-04-10 18:55:48,485 [INFO] [GOLD] 18:55 Thai | Session: LONDON
+2026-04-10 18:55:48,506 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-10 18:56:48,514 [INFO] [GOLD] 18:56 Thai | Session: LONDON
+2026-04-10 18:56:48,535 [INFO] [GOLD] Volume 0.42x below threshold — skip
+2026-04-10 18:57:33,316 [INFO] [BOT] Stopped by user
+2026-04-10 19:03:05,388 [INFO] ============================================================
+2026-04-10 19:03:05,389 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-10 19:03:05,389 [INFO] ============================================================
+2026-04-10 19:03:05,412 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 19:03:05,412 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 19:03:05,413 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 19:03:08,850 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 19:03:08,851 [INFO] [BOT] Scheduled: scan every 30s (fires signal only in last 30s of M5 candle)
+2026-04-10 19:03:08,851 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 19:03:08,852 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 19:03:08,852 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 19:03:38,859 [INFO] [GOLD] Warmup: 87s remaining (scanning only)
+2026-04-10 19:04:08,866 [INFO] [GOLD] Warmup: 57s remaining (scanning only)
+2026-04-10 19:04:38,874 [INFO] [GOLD] Warmup: 27s remaining (scanning only)
+2026-04-10 19:05:08,877 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 19:07:27,963 [INFO] [BOT] Stopped by user
+2026-04-10 19:07:30,832 [INFO] ============================================================
+2026-04-10 19:07:30,833 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-10 19:07:30,833 [INFO] ============================================================
+2026-04-10 19:07:30,848 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 19:07:30,849 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 19:07:30,849 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 19:07:33,322 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 19:07:33,323 [INFO] [BOT] Scheduled: scan every 30s (fires signal only in last 30s of M5 candle)
+2026-04-10 19:07:33,323 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 19:07:33,323 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 19:07:33,323 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 19:08:03,325 [INFO] [GOLD] Warmup: 88s remaining (scanning only)
+2026-04-10 19:08:33,328 [INFO] [GOLD] Warmup: 58s remaining (scanning only)
+2026-04-10 19:09:03,331 [INFO] [GOLD] Warmup: 28s remaining (scanning only)
+2026-04-10 19:09:33,333 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 19:25:51,057 [INFO] [BOT] Stopped by user
+2026-04-10 19:25:55,513 [INFO] ============================================================
+2026-04-10 19:25:55,513 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-10 19:25:55,513 [INFO] ============================================================
+2026-04-10 19:25:55,529 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 19:25:55,530 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 19:25:55,530 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 19:25:58,084 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 19:25:58,085 [INFO] [BOT] Scheduled: scan every 30s (fires signal only in last 30s of M5 candle)
+2026-04-10 19:25:58,085 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 19:25:58,085 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 19:25:58,086 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 19:26:28,088 [INFO] [GOLD] Warmup: 87s remaining (scanning only)
+2026-04-10 19:26:58,091 [INFO] [GOLD] Warmup: 57s remaining (scanning only)
+2026-04-10 19:27:28,095 [INFO] [GOLD] Warmup: 27s remaining (scanning only)
+2026-04-10 19:27:43,429 [INFO] [BOT] Stopped by user
+2026-04-10 19:29:03,076 [INFO] ============================================================
+2026-04-10 19:29:03,076 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-10 19:29:03,077 [INFO] ============================================================
+2026-04-10 19:29:03,092 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 19:29:03,092 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 19:29:03,093 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 19:29:05,665 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 19:29:05,665 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-10 19:29:05,666 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 19:29:05,666 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 19:29:05,666 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 19:30:05,669 [INFO] [GOLD] Warmup: 57s remaining (scanning only)
+2026-04-10 19:31:05,672 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 19:31:08,286 [INFO] [GOLD] 19:31 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:31:08,304 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-10 19:32:08,307 [INFO] [GOLD] 19:32 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:32:08,314 [INFO] [GOLD] Volume 1.26x below threshold — skip
+2026-04-10 19:33:08,317 [INFO] [GOLD] 19:33 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:33:08,324 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 19:33:08,344 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 19:34:08,346 [INFO] [GOLD] 19:34 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:34:08,351 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 19:34:08,352 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 19:35:08,356 [INFO] [GOLD] 19:35 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:35:08,362 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-10 19:36:08,364 [INFO] [GOLD] 19:36 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:36:08,370 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-10 19:37:08,373 [INFO] [GOLD] 19:37 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:37:08,378 [INFO] [GOLD] Volume 0.88x below threshold — skip
+2026-04-10 19:38:08,381 [INFO] [GOLD] 19:38 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:38:08,387 [INFO] [GOLD] Volume 1.28x below threshold — skip
+2026-04-10 19:39:08,390 [INFO] [GOLD] 19:39 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:39:08,396 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 19:39:08,397 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 19:40:08,399 [INFO] [GOLD] 19:40 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:40:08,405 [INFO] [GOLD] Volume 0.06x below threshold — skip
+2026-04-10 19:41:08,407 [INFO] [GOLD] 19:41 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:41:08,413 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-10 19:42:08,417 [INFO] [GOLD] 19:42 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:42:08,422 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-10 19:43:08,425 [INFO] [GOLD] 19:43 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:43:08,431 [INFO] [GOLD] Volume 1.07x below threshold — skip
+2026-04-10 19:44:08,433 [INFO] [GOLD] 19:44 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:44:08,439 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 19:44:08,440 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 19:45:08,443 [INFO] [GOLD] 19:45 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:45:08,449 [INFO] [GOLD] Volume 0.04x below threshold — skip
+2026-04-10 19:46:08,452 [INFO] [GOLD] 19:46 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:46:08,457 [INFO] [GOLD] Volume 0.30x below threshold — skip
+2026-04-10 19:47:08,460 [INFO] [GOLD] 19:47 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:47:08,465 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-10 19:48:08,468 [INFO] [GOLD] 19:48 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:48:08,475 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-10 19:49:08,477 [INFO] [GOLD] 19:49 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:49:08,484 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 19:49:08,485 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 19:49:54,485 [INFO] [BOT] Stopped by user
+2026-04-10 19:53:10,167 [INFO] ============================================================
+2026-04-10 19:53:10,168 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-10 19:53:10,168 [INFO] ============================================================
+2026-04-10 19:53:10,182 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 19:53:10,182 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 19:53:10,182 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 19:53:12,725 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 19:53:12,725 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-10 19:53:12,725 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 19:53:12,725 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 19:53:12,726 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 19:54:12,729 [INFO] [GOLD] Warmup: 57s remaining (scanning only)
+2026-04-10 19:55:12,731 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 19:55:15,370 [INFO] [GOLD] 19:55 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:55:15,377 [INFO] [GOLD] Volume 0.07x below threshold — skip
+2026-04-10 19:56:15,380 [INFO] [GOLD] 19:56 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:56:15,386 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-10 19:57:15,388 [INFO] [GOLD] 19:57 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:57:15,393 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-10 19:58:15,395 [INFO] [GOLD] 19:58 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:58:15,401 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-10 19:59:15,404 [INFO] [GOLD] 19:59 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 19:59:15,410 [INFO] [GOLD] Volume 1.14x below threshold — skip
+2026-04-10 20:00:15,412 [INFO] [GOLD] 20:00 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:00:15,417 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-10 20:01:15,420 [INFO] [GOLD] 20:01 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:01:15,425 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-10 20:02:15,428 [INFO] [GOLD] 20:02 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:02:15,436 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-10 20:03:15,440 [INFO] [GOLD] 20:03 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:03:15,445 [INFO] [GOLD] Volume 1.13x below threshold — skip
+2026-04-10 20:04:15,448 [INFO] [GOLD] 20:04 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:04:15,456 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-10 20:04:15,457 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-10 20:05:15,460 [INFO] [GOLD] 20:05 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:05:15,468 [INFO] [GOLD] Volume 0.07x below threshold — skip
+2026-04-10 20:06:15,471 [INFO] [GOLD] 20:06 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:06:15,479 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-10 20:07:15,481 [INFO] [GOLD] 20:07 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:07:15,486 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-10 20:08:15,489 [INFO] [GOLD] 20:08 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:08:15,496 [INFO] [GOLD] Volume 0.97x below threshold — skip
+2026-04-10 20:09:15,498 [INFO] [GOLD] 20:09 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:09:15,503 [INFO] [GOLD] Volume 1.22x below threshold — skip
+2026-04-10 20:10:15,506 [INFO] [GOLD] 20:10 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:10:15,512 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-10 20:11:15,515 [INFO] [GOLD] 20:11 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:11:15,523 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-10 20:12:15,526 [INFO] [GOLD] 20:12 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:12:15,533 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-10 20:13:15,539 [INFO] [GOLD] 20:13 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:13:15,549 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-10 20:14:15,552 [INFO] [GOLD] 20:14 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:14:15,561 [INFO] [GOLD] Volume 0.95x below threshold — skip
+2026-04-10 20:15:15,564 [INFO] [GOLD] 20:15 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:15:15,570 [INFO] [GOLD] Volume 0.07x below threshold — skip
+2026-04-10 20:16:15,573 [INFO] [GOLD] 20:16 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:16:15,579 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-10 20:17:15,582 [INFO] [GOLD] 20:17 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:17:15,586 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-10 20:18:15,590 [INFO] [GOLD] 20:18 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:18:15,598 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-10 20:19:15,601 [INFO] [GOLD] 20:19 Thai | Session: LONDON_NY_OVERLAP
+2026-04-10 20:19:15,607 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-10 23:23:03,254 [INFO] ============================================================
+2026-04-10 23:23:03,255 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-10 23:23:03,255 [INFO] ============================================================
+2026-04-10 23:23:10,720 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-10 23:23:10,721 [INFO] [MT5] Symbol detected: GOLD
+2026-04-10 23:23:10,721 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-10 23:23:13,246 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 23:23:13,247 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-10 23:23:13,247 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-10 23:23:13,247 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-10 23:23:13,247 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-10 23:24:13,251 [INFO] [GOLD] Warmup: 50s remaining (scanning only)
+2026-04-10 23:25:13,256 [INFO] [GOLD] Warmup complete — trading active
+2026-04-10 23:25:15,719 [INFO] [GOLD] 23:25 Thai | Session: NEW_YORK
+2026-04-10 23:25:15,761 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-10 23:26:15,765 [INFO] [GOLD] 23:26 Thai | Session: NEW_YORK
+2026-04-10 23:26:15,771 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-10 23:27:15,775 [INFO] [GOLD] 23:27 Thai | Session: NEW_YORK
+2026-04-10 23:27:15,782 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-10 23:28:15,788 [INFO] [GOLD] 23:28 Thai | Session: NEW_YORK
+2026-04-10 23:28:15,795 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-10 23:29:15,798 [INFO] [GOLD] 23:29 Thai | Session: NEW_YORK
+2026-04-10 23:29:15,804 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-10 23:30:15,809 [INFO] [GOLD] 23:30 Thai | Session: NEW_YORK
+2026-04-10 23:30:15,817 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-10 23:31:15,822 [INFO] [GOLD] 23:31 Thai | Session: NEW_YORK
+2026-04-10 23:31:15,830 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-10 23:32:15,835 [INFO] [GOLD] 23:32 Thai | Session: NEW_YORK
+2026-04-10 23:32:15,841 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-10 23:33:15,846 [INFO] [GOLD] 23:33 Thai | Session: NEW_YORK
+2026-04-10 23:33:15,854 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-10 23:34:15,859 [INFO] [GOLD] 23:34 Thai | Session: NEW_YORK
+2026-04-10 23:34:15,865 [INFO] [GOLD] Volume 0.86x below threshold — skip
+2026-04-10 23:35:15,869 [INFO] [GOLD] 23:35 Thai | Session: NEW_YORK
+2026-04-10 23:35:15,877 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-10 23:36:15,882 [INFO] [GOLD] 23:36 Thai | Session: NEW_YORK
+2026-04-10 23:36:15,891 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-10 23:37:15,897 [INFO] [GOLD] 23:37 Thai | Session: NEW_YORK
+2026-04-10 23:37:15,905 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-10 23:38:15,910 [INFO] [GOLD] 23:38 Thai | Session: NEW_YORK
+2026-04-10 23:38:15,917 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-10 23:39:15,923 [INFO] [GOLD] 23:39 Thai | Session: NEW_YORK
+2026-04-10 23:39:15,933 [INFO] [GOLD] Volume 0.81x below threshold — skip
+2026-04-10 23:40:15,938 [INFO] [GOLD] 23:40 Thai | Session: NEW_YORK
+2026-04-10 23:40:15,946 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-10 23:41:15,952 [INFO] [GOLD] 23:41 Thai | Session: NEW_YORK
+2026-04-10 23:41:15,959 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-10 23:42:15,964 [INFO] [GOLD] 23:42 Thai | Session: NEW_YORK
+2026-04-10 23:42:15,972 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-10 23:43:15,976 [INFO] [GOLD] 23:43 Thai | Session: NEW_YORK
+2026-04-10 23:43:15,984 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-10 23:44:15,990 [INFO] [GOLD] 23:44 Thai | Session: NEW_YORK
+2026-04-10 23:44:15,998 [INFO] [GOLD] Volume 0.86x below threshold — skip
+2026-04-10 23:45:16,003 [INFO] [GOLD] 23:45 Thai | Session: NEW_YORK
+2026-04-10 23:45:16,010 [INFO] [GOLD] Volume 0.04x below threshold — skip
+2026-04-10 23:46:16,015 [INFO] [GOLD] 23:46 Thai | Session: NEW_YORK
+2026-04-10 23:46:16,022 [INFO] [GOLD] Volume 0.18x below threshold — skip
+2026-04-10 23:47:16,027 [INFO] [GOLD] 23:47 Thai | Session: NEW_YORK
+2026-04-10 23:47:16,032 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-10 23:48:16,037 [INFO] [GOLD] 23:48 Thai | Session: NEW_YORK
+2026-04-10 23:48:16,046 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-10 23:49:16,050 [INFO] [GOLD] 23:49 Thai | Session: NEW_YORK
+2026-04-10 23:49:16,056 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-10 23:50:16,060 [INFO] [GOLD] 23:50 Thai | Session: NEW_YORK
+2026-04-10 23:50:16,066 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-10 23:51:16,071 [INFO] [GOLD] 23:51 Thai | Session: NEW_YORK
+2026-04-10 23:51:16,080 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-10 23:52:16,084 [INFO] [GOLD] 23:52 Thai | Session: NEW_YORK
+2026-04-10 23:52:16,092 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-10 23:53:16,096 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-10 23:53:16,098 [INFO] [GOLD] 23:53 Thai | Session: NEW_YORK
+2026-04-10 23:53:16,104 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-10 23:54:16,109 [INFO] [GOLD] 23:54 Thai | Session: NEW_YORK
+2026-04-10 23:54:16,117 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-10 23:55:16,122 [INFO] [GOLD] 23:55 Thai | Session: NEW_YORK
+2026-04-10 23:55:16,130 [INFO] [GOLD] Volume 0.04x below threshold — skip
+2026-04-10 23:56:16,136 [INFO] [GOLD] 23:56 Thai | Session: NEW_YORK
+2026-04-10 23:56:16,144 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-10 23:57:16,149 [INFO] [GOLD] 23:57 Thai | Session: NEW_YORK
+2026-04-10 23:57:16,156 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-10 23:58:16,161 [INFO] [GOLD] 23:58 Thai | Session: NEW_YORK
+2026-04-10 23:58:16,170 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-10 23:59:16,174 [INFO] [GOLD] 23:59 Thai | Session: NEW_YORK
+2026-04-10 23:59:16,181 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-11 00:00:18,616 [INFO] [GOLD] 00:00 Thai | Session: NEW_YORK
+2026-04-11 00:00:18,623 [INFO] [GOLD] Volume 0.06x below threshold — skip
+2026-04-11 00:01:18,627 [INFO] [GOLD] 00:01 Thai | Session: NEW_YORK
+2026-04-11 00:01:18,633 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-11 00:02:18,638 [INFO] [GOLD] 00:02 Thai | Session: NEW_YORK
+2026-04-11 00:02:18,644 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-11 00:03:18,649 [INFO] [GOLD] 00:03 Thai | Session: NEW_YORK
+2026-04-11 00:03:18,656 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-11 00:04:18,660 [INFO] [GOLD] 00:04 Thai | Session: NEW_YORK
+2026-04-11 00:04:18,667 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-11 00:05:18,672 [INFO] [GOLD] 00:05 Thai | Session: NEW_YORK
+2026-04-11 00:05:18,679 [INFO] [GOLD] Volume 0.07x below threshold — skip
+2026-04-11 00:06:18,683 [INFO] [GOLD] 00:06 Thai | Session: NEW_YORK
+2026-04-11 00:06:18,691 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-11 00:07:18,696 [INFO] [GOLD] 00:07 Thai | Session: NEW_YORK
+2026-04-11 00:07:18,703 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-11 00:08:18,708 [INFO] [GOLD] 00:08 Thai | Session: NEW_YORK
+2026-04-11 00:08:18,719 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-11 00:09:18,724 [INFO] [GOLD] 00:09 Thai | Session: NEW_YORK
+2026-04-11 00:09:18,730 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-11 00:10:18,737 [INFO] [GOLD] 00:10 Thai | Session: NEW_YORK
+2026-04-11 00:10:18,746 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-11 00:11:18,751 [INFO] [GOLD] 00:11 Thai | Session: NEW_YORK
+2026-04-11 00:11:18,757 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-11 00:12:18,762 [INFO] [GOLD] 00:12 Thai | Session: NEW_YORK
+2026-04-11 00:12:18,769 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-11 00:13:18,773 [INFO] [GOLD] 00:13 Thai | Session: NEW_YORK
+2026-04-11 00:13:18,781 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-11 00:14:18,786 [INFO] [GOLD] 00:14 Thai | Session: NEW_YORK
+2026-04-11 00:14:18,794 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-11 00:15:18,799 [INFO] [GOLD] 00:15 Thai | Session: NEW_YORK
+2026-04-11 00:15:18,806 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-11 00:16:18,811 [INFO] [GOLD] 00:16 Thai | Session: NEW_YORK
+2026-04-11 00:16:18,817 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-11 00:17:18,822 [INFO] [GOLD] 00:17 Thai | Session: NEW_YORK
+2026-04-11 00:17:18,830 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-11 00:18:18,835 [INFO] [GOLD] 00:18 Thai | Session: NEW_YORK
+2026-04-11 00:18:18,841 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-11 00:19:18,846 [INFO] [GOLD] 00:19 Thai | Session: NEW_YORK
+2026-04-11 00:19:18,850 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-11 00:20:18,856 [INFO] [GOLD] 00:20 Thai | Session: NEW_YORK
+2026-04-11 00:20:18,863 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-11 00:21:18,868 [INFO] [GOLD] 00:21 Thai | Session: NEW_YORK
+2026-04-11 00:21:18,876 [INFO] [GOLD] Volume 0.19x below threshold — skip
+2026-04-11 00:22:18,881 [INFO] [GOLD] 00:22 Thai | Session: NEW_YORK
+2026-04-11 00:22:18,889 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-11 00:23:18,894 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-11 00:23:18,896 [INFO] [GOLD] 00:23 Thai | Session: NEW_YORK
+2026-04-11 00:23:18,903 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-11 00:24:18,908 [INFO] [GOLD] 00:24 Thai | Session: NEW_YORK
+2026-04-11 00:24:18,916 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-11 00:25:18,921 [INFO] [GOLD] 00:25 Thai | Session: NEW_YORK
+2026-04-11 00:25:18,930 [INFO] [GOLD] Volume 0.04x below threshold — skip
+2026-04-11 00:26:18,935 [INFO] [GOLD] 00:26 Thai | Session: NEW_YORK
+2026-04-11 00:26:18,940 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-11 00:27:18,943 [INFO] [GOLD] 00:27 Thai | Session: NEW_YORK
+2026-04-11 00:27:18,950 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-11 00:28:18,955 [INFO] [GOLD] 00:28 Thai | Session: NEW_YORK
+2026-04-11 00:28:18,959 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-11 00:29:18,964 [INFO] [GOLD] 00:29 Thai | Session: NEW_YORK
+2026-04-11 00:29:18,971 [INFO] [GOLD] Volume 0.58x below threshold — skip
+2026-04-11 00:30:18,975 [INFO] [GOLD] 00:30 Thai | Session: NEW_YORK
+2026-04-11 00:30:18,984 [INFO] [GOLD] Volume 0.09x below threshold — skip
+2026-04-11 00:31:18,988 [INFO] [GOLD] 00:31 Thai | Session: NEW_YORK
+2026-04-11 00:31:18,996 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-11 00:32:18,999 [INFO] [GOLD] 00:32 Thai | Session: NEW_YORK
+2026-04-11 00:32:19,005 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-11 00:33:19,007 [INFO] [GOLD] 00:33 Thai | Session: NEW_YORK
+2026-04-11 00:33:19,013 [INFO] [GOLD] Volume 0.60x below threshold — skip
+2026-04-11 00:34:19,016 [INFO] [GOLD] 00:34 Thai | Session: NEW_YORK
+2026-04-11 00:34:19,021 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-11 00:34:30,458 [INFO] [BOT] Stopped by user
+2026-04-11 00:35:44,926 [INFO] ============================================================
+2026-04-11 00:35:44,927 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-11 00:35:44,927 [INFO] ============================================================
+2026-04-11 00:35:44,940 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-11 00:35:44,940 [INFO] [MT5] Symbol detected: GOLD
+2026-04-11 00:35:44,940 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-11 00:35:47,246 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-11 00:35:47,246 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-11 00:35:47,246 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-11 00:35:47,247 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-11 00:35:47,247 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-11 00:36:47,249 [INFO] [GOLD] Warmup: 58s remaining (scanning only)
+2026-04-11 00:37:47,251 [INFO] [GOLD] Warmup complete — trading active
+2026-04-11 00:37:49,719 [INFO] [GOLD] 00:37 Thai | Session: NEW_YORK
+2026-04-11 00:37:49,727 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-11 00:38:49,730 [INFO] [GOLD] 00:38 Thai | Session: NEW_YORK
+2026-04-11 00:38:49,736 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-11 00:39:49,739 [INFO] [GOLD] 00:39 Thai | Session: NEW_YORK
+2026-04-11 00:39:49,746 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-11 00:40:49,749 [INFO] [GOLD] 00:40 Thai | Session: NEW_YORK
+2026-04-11 00:40:49,756 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-11 00:41:49,758 [INFO] [GOLD] 00:41 Thai | Session: NEW_YORK
+2026-04-11 00:41:49,764 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-11 00:42:49,767 [INFO] [GOLD] 00:42 Thai | Session: NEW_YORK
+2026-04-11 00:42:49,773 [INFO] [GOLD] Volume 0.58x below threshold — skip
+2026-04-11 00:43:49,776 [INFO] [GOLD] 00:43 Thai | Session: NEW_YORK
+2026-04-11 00:43:49,782 [INFO] [GOLD] Volume 0.78x below threshold — skip
+2026-04-11 00:44:49,784 [INFO] [GOLD] 00:44 Thai | Session: NEW_YORK
+2026-04-11 00:44:49,790 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-11 00:45:49,793 [INFO] [GOLD] 00:45 Thai | Session: NEW_YORK
+2026-04-11 00:45:49,801 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-11 00:46:49,803 [INFO] [GOLD] 00:46 Thai | Session: NEW_YORK
+2026-04-11 00:46:49,810 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-11 00:47:49,812 [INFO] [GOLD] 00:47 Thai | Session: NEW_YORK
+2026-04-11 00:47:49,818 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-11 00:48:49,820 [INFO] [GOLD] 00:48 Thai | Session: NEW_YORK
+2026-04-11 00:48:49,826 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-11 00:49:49,829 [INFO] [GOLD] 00:49 Thai | Session: NEW_YORK
+2026-04-11 00:49:49,834 [INFO] [GOLD] Volume 0.88x below threshold — skip
+2026-04-11 00:50:49,836 [INFO] [GOLD] 00:50 Thai | Session: NEW_YORK
+2026-04-11 00:50:49,843 [INFO] [GOLD] Volume 0.12x below threshold — skip
+2026-04-11 00:51:49,846 [INFO] [GOLD] 00:51 Thai | Session: NEW_YORK
+2026-04-11 00:51:49,853 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-11 00:52:49,855 [INFO] [GOLD] 00:52 Thai | Session: NEW_YORK
+2026-04-11 00:52:49,861 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-11 00:53:49,864 [INFO] [GOLD] 00:53 Thai | Session: NEW_YORK
+2026-04-11 00:53:49,872 [INFO] [GOLD] Volume 0.58x below threshold — skip
+2026-04-11 00:54:49,875 [INFO] [GOLD] 00:54 Thai | Session: NEW_YORK
+2026-04-11 00:54:49,879 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-11 00:55:49,882 [INFO] [GOLD] 00:55 Thai | Session: NEW_YORK
+2026-04-11 00:55:49,887 [INFO] [GOLD] Volume 0.09x below threshold — skip
+2026-04-11 00:56:49,890 [INFO] [GOLD] 00:56 Thai | Session: NEW_YORK
+2026-04-11 00:56:49,894 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-11 00:57:49,897 [INFO] [GOLD] 00:57 Thai | Session: NEW_YORK
+2026-04-11 00:57:49,902 [INFO] [GOLD] Volume 0.39x below threshold — skip
+2026-04-11 00:58:49,904 [INFO] [GOLD] 00:58 Thai | Session: NEW_YORK
+2026-04-11 00:58:49,911 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-11 00:59:49,913 [INFO] [GOLD] 00:59 Thai | Session: NEW_YORK
+2026-04-11 00:59:49,918 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-11 01:00:49,921 [INFO] [GOLD] 01:00 Thai | Session: NEW_YORK
+2026-04-11 01:00:49,926 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-11 01:01:49,929 [INFO] [GOLD] 01:01 Thai | Session: NEW_YORK
+2026-04-11 01:01:49,934 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-11 01:02:49,937 [INFO] [GOLD] 01:02 Thai | Session: NEW_YORK
+2026-04-11 01:02:49,943 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-11 01:03:49,946 [INFO] [GOLD] 01:03 Thai | Session: NEW_YORK
+2026-04-11 01:03:49,951 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-11 01:04:49,954 [INFO] [GOLD] 01:04 Thai | Session: NEW_YORK
+2026-04-11 01:04:49,958 [INFO] [GOLD] Volume 0.93x below threshold — skip
+2026-04-11 01:05:49,961 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-11 01:05:49,962 [INFO] [GOLD] 01:05 Thai | Session: NEW_YORK
+2026-04-11 01:05:49,967 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-11 01:06:49,969 [INFO] [GOLD] 01:06 Thai | Session: NEW_YORK
+2026-04-11 01:06:49,975 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-11 01:07:49,978 [INFO] [GOLD] 01:07 Thai | Session: NEW_YORK
+2026-04-11 01:07:49,984 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-11 01:08:49,986 [INFO] [GOLD] 01:08 Thai | Session: NEW_YORK
+2026-04-11 01:08:49,993 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-11 01:09:49,995 [INFO] [GOLD] 01:09 Thai | Session: NEW_YORK
+2026-04-11 01:09:50,000 [INFO] [GOLD] Volume 1.02x below threshold — skip
+2026-04-11 01:10:50,003 [INFO] [GOLD] 01:10 Thai | Session: NEW_YORK
+2026-04-11 01:10:50,010 [INFO] [GOLD] Volume 0.14x below threshold — skip
+2026-04-11 01:11:50,014 [INFO] [GOLD] 01:11 Thai | Session: NEW_YORK
+2026-04-11 01:11:50,019 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-11 01:12:50,022 [INFO] [GOLD] 01:12 Thai | Session: NEW_YORK
+2026-04-11 01:12:50,027 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-11 01:13:50,029 [INFO] [GOLD] 01:13 Thai | Session: NEW_YORK
+2026-04-11 01:13:50,036 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-11 01:14:50,038 [INFO] [GOLD] 01:14 Thai | Session: NEW_YORK
+2026-04-11 01:14:50,045 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-11 01:15:50,048 [INFO] [GOLD] 01:15 Thai | Session: NEW_YORK
+2026-04-11 01:15:50,054 [INFO] [GOLD] Volume 0.13x below threshold — skip
+2026-04-11 01:16:50,057 [INFO] [GOLD] 01:16 Thai | Session: NEW_YORK
+2026-04-11 01:16:50,063 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-11 01:17:50,066 [INFO] [GOLD] 01:17 Thai | Session: NEW_YORK
+2026-04-11 01:17:50,073 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-11 01:18:50,075 [INFO] [GOLD] 01:18 Thai | Session: NEW_YORK
+2026-04-11 01:18:50,082 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-11 01:19:50,085 [INFO] [GOLD] 01:19 Thai | Session: NEW_YORK
+2026-04-11 01:19:50,090 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-11 01:20:50,092 [INFO] [GOLD] 01:20 Thai | Session: NEW_YORK
+2026-04-11 01:20:50,099 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-11 01:21:50,102 [INFO] [GOLD] 01:21 Thai | Session: NEW_YORK
+2026-04-11 01:21:50,108 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-11 01:22:50,110 [INFO] [GOLD] 01:22 Thai | Session: NEW_YORK
+2026-04-11 01:22:50,116 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-11 01:23:50,119 [INFO] [GOLD] 01:23 Thai | Session: NEW_YORK
+2026-04-11 01:23:50,123 [INFO] [GOLD] Volume 0.71x below threshold — skip
+2026-04-11 01:24:50,125 [INFO] [GOLD] 01:24 Thai | Session: NEW_YORK
+2026-04-11 01:24:50,131 [INFO] [GOLD] Volume 0.91x below threshold — skip
+2026-04-11 01:25:50,134 [INFO] [GOLD] 01:25 Thai | Session: NEW_YORK
+2026-04-11 01:25:50,141 [INFO] [GOLD] Volume 0.13x below threshold — skip
+2026-04-11 01:26:50,143 [INFO] [GOLD] 01:26 Thai | Session: NEW_YORK
+2026-04-11 01:26:50,148 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-11 01:27:50,150 [INFO] [GOLD] 01:27 Thai | Session: NEW_YORK
+2026-04-11 01:27:50,158 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-11 01:28:50,161 [INFO] [GOLD] 01:28 Thai | Session: NEW_YORK
+2026-04-11 01:28:50,166 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-11 01:29:50,169 [INFO] [GOLD] 01:29 Thai | Session: NEW_YORK
+2026-04-11 01:29:50,176 [INFO] [GOLD] Volume 0.68x below threshold — skip
+2026-04-11 01:30:50,178 [INFO] [GOLD] 01:30 Thai | Session: NEW_YORK
+2026-04-11 01:30:50,184 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-11 01:31:50,187 [INFO] [GOLD] 01:31 Thai | Session: NEW_YORK
+2026-04-11 01:31:50,192 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-11 01:32:50,194 [INFO] [GOLD] 01:32 Thai | Session: NEW_YORK
+2026-04-11 01:32:50,199 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-11 01:33:50,202 [INFO] [GOLD] 01:33 Thai | Session: NEW_YORK
+2026-04-11 01:33:50,210 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-11 01:34:50,212 [INFO] [GOLD] 01:34 Thai | Session: NEW_YORK
+2026-04-11 01:34:50,217 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-11 01:35:50,218 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-11 01:35:50,219 [INFO] [GOLD] 01:35 Thai | Session: NEW_YORK
+2026-04-11 01:35:50,224 [INFO] [GOLD] Volume 0.10x below threshold — skip
+2026-04-11 01:36:50,228 [INFO] [GOLD] 01:36 Thai | Session: NEW_YORK
+2026-04-11 01:36:50,233 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-11 01:37:50,236 [INFO] [GOLD] 01:37 Thai | Session: NEW_YORK
+2026-04-11 01:37:50,242 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-11 01:38:50,243 [INFO] [GOLD] 01:38 Thai | Session: NEW_YORK
+2026-04-11 01:38:50,248 [INFO] [GOLD] Volume 0.58x below threshold — skip
+2026-04-11 01:39:50,251 [INFO] [GOLD] 01:39 Thai | Session: NEW_YORK
+2026-04-11 01:39:50,257 [INFO] [GOLD] Volume 0.75x below threshold — skip
+2026-04-11 01:40:50,260 [INFO] [GOLD] 01:40 Thai | Session: NEW_YORK
+2026-04-11 01:40:50,265 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-11 01:41:50,267 [INFO] [GOLD] 01:41 Thai | Session: NEW_YORK
+2026-04-11 01:41:50,274 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-11 01:42:50,276 [INFO] [GOLD] 01:42 Thai | Session: NEW_YORK
+2026-04-11 01:42:50,282 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-11 01:43:50,284 [INFO] [GOLD] 01:43 Thai | Session: NEW_YORK
+2026-04-11 01:43:50,290 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-11 01:44:50,293 [INFO] [GOLD] 01:44 Thai | Session: NEW_YORK
+2026-04-11 01:44:50,299 [INFO] [GOLD] Volume 0.83x below threshold — skip
+2026-04-11 01:45:50,302 [INFO] [GOLD] 01:45 Thai | Session: NEW_YORK
+2026-04-11 01:45:50,308 [INFO] [GOLD] Volume 0.10x below threshold — skip
+2026-04-11 01:46:50,310 [INFO] [GOLD] 01:46 Thai | Session: NEW_YORK
+2026-04-11 01:46:50,316 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-11 01:47:50,319 [INFO] [GOLD] 01:47 Thai | Session: NEW_YORK
+2026-04-11 01:47:50,323 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-11 01:48:50,326 [INFO] [GOLD] 01:48 Thai | Session: NEW_YORK
+2026-04-11 01:48:50,331 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-11 01:49:50,333 [INFO] [GOLD] 01:49 Thai | Session: NEW_YORK
+2026-04-11 01:49:50,339 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-11 01:50:50,341 [INFO] [GOLD] 01:50 Thai | Session: NEW_YORK
+2026-04-11 01:50:50,347 [INFO] [GOLD] Volume 0.13x below threshold — skip
+2026-04-11 01:51:50,349 [INFO] [GOLD] 01:51 Thai | Session: NEW_YORK
+2026-04-11 01:51:50,355 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-11 01:52:50,357 [INFO] [GOLD] 01:52 Thai | Session: NEW_YORK
+2026-04-11 01:52:50,363 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-11 01:53:50,366 [INFO] [GOLD] 01:53 Thai | Session: NEW_YORK
+2026-04-11 01:53:50,372 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-11 01:54:50,375 [INFO] [GOLD] 01:54 Thai | Session: NEW_YORK
+2026-04-11 01:54:50,381 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-11 01:55:50,383 [INFO] [GOLD] 01:55 Thai | Session: NEW_YORK
+2026-04-11 01:55:50,391 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-11 01:56:50,393 [INFO] [GOLD] 01:56 Thai | Session: NEW_YORK
+2026-04-11 01:56:50,399 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-11 01:57:50,401 [INFO] [GOLD] 01:57 Thai | Session: NEW_YORK
+2026-04-11 01:57:50,406 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-11 01:58:50,409 [INFO] [GOLD] 01:58 Thai | Session: NEW_YORK
+2026-04-11 01:58:50,414 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-11 01:59:50,417 [INFO] [GOLD] 01:59 Thai | Session: NEW_YORK
+2026-04-11 01:59:50,424 [INFO] [GOLD] Volume 0.55x below threshold — skip
+2026-04-11 02:00:50,427 [INFO] [GOLD] 02:00 Thai | Session: NEW_YORK
+2026-04-11 02:00:50,432 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-11 02:01:50,435 [INFO] [GOLD] 02:01 Thai | Session: NEW_YORK
+2026-04-11 02:01:50,440 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-11 02:02:50,443 [INFO] [GOLD] 02:02 Thai | Session: NEW_YORK
+2026-04-11 02:02:50,451 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-11 02:03:50,453 [INFO] [GOLD] 02:03 Thai | Session: NEW_YORK
+2026-04-11 02:03:50,460 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-11 02:04:50,462 [INFO] [GOLD] 02:04 Thai | Session: NEW_YORK
+2026-04-11 02:04:50,468 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-11 02:05:50,471 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-11 02:05:50,472 [INFO] [GOLD] 02:05 Thai | Session: NEW_YORK
+2026-04-11 02:05:50,479 [INFO] [GOLD] Volume 0.14x below threshold — skip
+2026-04-11 02:06:50,481 [INFO] [GOLD] 02:06 Thai | Session: NEW_YORK
+2026-04-11 02:06:50,487 [INFO] [GOLD] Volume 0.30x below threshold — skip
+2026-04-11 02:07:50,490 [INFO] [GOLD] 02:07 Thai | Session: NEW_YORK
+2026-04-11 02:07:50,494 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-11 02:08:50,497 [INFO] [GOLD] 02:08 Thai | Session: NEW_YORK
+2026-04-11 02:08:50,503 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-11 02:09:50,506 [INFO] [GOLD] 02:09 Thai | Session: NEW_YORK
+2026-04-11 02:09:50,512 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-11 02:10:50,514 [INFO] [GOLD] 02:10 Thai | Session: NEW_YORK
+2026-04-11 02:10:50,522 [INFO] [GOLD] Volume 0.14x below threshold — skip
+2026-04-11 02:11:50,524 [INFO] [GOLD] 02:11 Thai | Session: NEW_YORK
+2026-04-11 02:11:50,529 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-11 02:12:50,532 [INFO] [GOLD] 02:12 Thai | Session: NEW_YORK
+2026-04-11 02:12:50,538 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-11 02:13:50,540 [INFO] [GOLD] 02:13 Thai | Session: NEW_YORK
+2026-04-11 02:13:50,546 [INFO] [GOLD] Volume 0.60x below threshold — skip
+2026-04-11 02:14:50,549 [INFO] [GOLD] 02:14 Thai | Session: NEW_YORK
+2026-04-11 02:14:50,555 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-11 02:15:50,557 [INFO] [GOLD] 02:15 Thai | Session: NEW_YORK
+2026-04-11 02:15:50,562 [INFO] [GOLD] Volume 0.10x below threshold — skip
+2026-04-11 02:16:50,565 [INFO] [GOLD] 02:16 Thai | Session: NEW_YORK
+2026-04-11 02:16:50,572 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-11 02:17:50,575 [INFO] [GOLD] 02:17 Thai | Session: NEW_YORK
+2026-04-11 02:17:50,581 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-11 02:18:50,583 [INFO] [GOLD] 02:18 Thai | Session: NEW_YORK
+2026-04-11 02:18:50,590 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-11 02:19:50,593 [INFO] [GOLD] 02:19 Thai | Session: NEW_YORK
+2026-04-11 02:19:50,599 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-11 02:20:50,602 [INFO] [GOLD] 02:20 Thai | Session: NEW_YORK
+2026-04-11 02:20:50,610 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-11 02:21:50,613 [INFO] [GOLD] 02:21 Thai | Session: NEW_YORK
+2026-04-11 02:21:50,621 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-11 02:22:50,624 [INFO] [GOLD] 02:22 Thai | Session: NEW_YORK
+2026-04-11 02:22:50,631 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-11 02:23:50,634 [INFO] [GOLD] 02:23 Thai | Session: NEW_YORK
+2026-04-11 02:23:50,641 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-11 02:24:50,643 [INFO] [GOLD] 02:24 Thai | Session: NEW_YORK
+2026-04-11 02:24:50,652 [INFO] [GOLD] Volume 0.92x below threshold — skip
+2026-04-11 02:25:50,655 [INFO] [GOLD] 02:25 Thai | Session: NEW_YORK
+2026-04-11 02:25:50,661 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-11 02:26:50,663 [INFO] [GOLD] 02:26 Thai | Session: NEW_YORK
+2026-04-11 02:26:50,671 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-11 02:27:50,673 [INFO] [GOLD] 02:27 Thai | Session: NEW_YORK
+2026-04-11 02:27:50,681 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-11 02:28:50,683 [INFO] [GOLD] 02:28 Thai | Session: NEW_YORK
+2026-04-11 02:28:50,691 [INFO] [GOLD] Volume 0.86x below threshold — skip
+2026-04-11 02:29:50,693 [INFO] [GOLD] 02:29 Thai | Session: NEW_YORK
+2026-04-11 02:29:50,702 [INFO] [GOLD] Volume 1.09x below threshold — skip
+2026-04-11 02:30:50,705 [INFO] [GOLD] 02:30 Thai | Session: NEW_YORK
+2026-04-11 02:30:50,714 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-11 02:31:50,717 [INFO] [GOLD] 02:31 Thai | Session: NEW_YORK
+2026-04-11 02:31:50,725 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-11 02:32:50,728 [INFO] [GOLD] 02:32 Thai | Session: NEW_YORK
+2026-04-11 02:32:50,737 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-11 02:33:50,740 [INFO] [GOLD] 02:33 Thai | Session: NEW_YORK
+2026-04-11 02:33:50,747 [INFO] [GOLD] Volume 1.05x below threshold — skip
+2026-04-11 02:34:50,509 [INFO] [BOT] Stopped by user
+2026-04-13 05:12:44,751 [INFO] ============================================================
+2026-04-13 05:12:44,752 [INFO]   SUPER TRADER v6.0 - Starting
+2026-04-13 05:12:44,752 [INFO] ============================================================
+2026-04-13 05:12:53,038 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-13 05:12:53,038 [INFO] [MT5] Symbol detected: GOLD
+2026-04-13 05:12:53,039 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-13 05:12:55,716 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 05:12:55,717 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-13 05:12:55,717 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-13 05:12:55,717 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-13 05:12:55,717 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-13 05:13:55,720 [INFO] [BOT] Low-volume hour 22 UTC — skip Gold
+2026-04-13 05:14:55,723 [INFO] [BOT] Low-volume hour 22 UTC — skip Gold
+2026-04-13 05:15:55,727 [INFO] [BOT] Low-volume hour 22 UTC — skip Gold
+2026-04-13 05:16:55,730 [INFO] [BOT] Low-volume hour 22 UTC — skip Gold
+2026-04-13 05:17:22,182 [INFO] [BOT] Stopped by user
+2026-04-13 05:29:04,835 [INFO] ============================================================
+2026-04-13 05:29:04,835 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-13 05:29:04,835 [INFO] ============================================================
+2026-04-13 05:29:04,848 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-13 05:29:04,848 [INFO] [MT5] Symbol detected: GOLD
+2026-04-13 05:29:04,848 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-13 05:29:07,172 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 05:29:07,173 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-13 05:29:07,173 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-13 05:29:07,174 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-13 05:29:07,174 [INFO] [BOT] Session filtering: handled by session_config.py only
+2026-04-13 05:29:07,174 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-13 05:30:07,176 [INFO] [GOLD] Warmup: 58s remaining (scanning only)
+2026-04-13 05:31:07,180 [INFO] [GOLD] Warmup complete — trading active
+2026-04-13 05:31:09,483 [INFO] [GOLD] 05:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:31:09,493 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 05:32:09,496 [INFO] [GOLD] 05:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:32:09,503 [INFO] [GOLD] Volume 1.01x below threshold — skip
+2026-04-13 05:33:09,506 [INFO] [GOLD] 05:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:33:09,513 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-13 05:33:09,515 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-13 05:34:09,518 [INFO] [GOLD] 05:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:34:09,525 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-13 05:34:09,526 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-13 05:35:09,529 [INFO] [GOLD] 05:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:35:09,538 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-13 05:36:09,542 [INFO] [GOLD] 05:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:36:09,549 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 05:37:09,551 [INFO] [GOLD] 05:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:37:09,557 [INFO] [GOLD] Volume 0.84x below threshold — skip
+2026-04-13 05:38:09,559 [INFO] [GOLD] 05:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:38:09,568 [INFO] [GOLD] Volume 1.21x below threshold — skip
+2026-04-13 05:39:09,571 [INFO] [GOLD] 05:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:39:09,577 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-13 05:39:09,578 [INFO] [GOLD] D1 gate: BUY blocked — Daily trend is DOWN
+2026-04-13 05:40:09,581 [INFO] [GOLD] 05:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:40:09,587 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-13 05:41:09,590 [INFO] [GOLD] 05:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:41:09,598 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 05:42:09,601 [INFO] [GOLD] 05:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:42:09,607 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-13 05:43:09,609 [INFO] [GOLD] 05:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:43:09,616 [INFO] [GOLD] Volume 0.95x below threshold — skip
+2026-04-13 05:44:09,618 [INFO] [GOLD] 05:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:44:09,625 [INFO] [GOLD] Volume 1.29x below threshold — skip
+2026-04-13 05:44:19,639 [INFO] [BOT] Stopped by user
+2026-04-13 05:44:21,813 [INFO] ============================================================
+2026-04-13 05:44:21,813 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-13 05:44:21,814 [INFO] ============================================================
+2026-04-13 05:44:21,828 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-13 05:44:21,828 [INFO] [MT5] Symbol detected: GOLD
+2026-04-13 05:44:21,829 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-13 05:44:24,190 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 05:44:24,190 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-13 05:44:24,190 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-13 05:44:24,191 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-13 05:44:24,191 [INFO] [BOT] Session filtering: handled by session_config.py only
+2026-04-13 05:44:24,191 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-13 05:45:24,194 [INFO] [GOLD] Warmup: 58s remaining (scanning only)
+2026-04-13 05:46:24,197 [INFO] [GOLD] Warmup complete — trading active
+2026-04-13 05:46:26,550 [INFO] [GOLD] 05:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:46:26,559 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-13 05:47:26,561 [INFO] [GOLD] 05:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:47:26,568 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-13 05:48:26,571 [INFO] [GOLD] 05:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:48:26,577 [INFO] [GOLD] Volume 1.03x below threshold — skip
+2026-04-13 05:49:26,580 [INFO] [GOLD] 05:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:49:26,586 [INFO] [GOLD] Action: BUY | H1: UP | H4: UP
+2026-04-13 05:49:26,588 [INFO] [GOLD] D1 gate: BUY vs Daily DOWN trend — Penalty -15 points
+2026-04-13 05:49:26,588 [ERROR] [GOLD] Error: cannot access local variable 'signal_score' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 323, in run_gold
+    notifier.send_plain("[BOT] Warmup complete — now placing orders")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 350, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 117, in check_daily_trend
+    signal_score -= 15
+    ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'signal_score' where it is not associated with a value
+2026-04-13 05:50:29,209 [INFO] [GOLD] 05:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:50:29,216 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-13 05:51:29,219 [INFO] [GOLD] 05:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:51:29,228 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-13 05:52:29,231 [INFO] [GOLD] 05:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:52:29,238 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-13 05:53:29,241 [INFO] [GOLD] 05:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:53:29,247 [INFO] [GOLD] Volume 0.75x below threshold — skip
+2026-04-13 05:54:29,250 [INFO] [GOLD] 05:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:54:29,255 [INFO] [GOLD] Volume 0.95x below threshold — skip
+2026-04-13 05:55:00,918 [INFO] [BOT] Stopped by user
+2026-04-13 05:55:54,344 [INFO] ============================================================
+2026-04-13 05:55:54,344 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-13 05:55:54,344 [INFO] ============================================================
+2026-04-13 05:55:54,359 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.07 | Equity: $48.72
+2026-04-13 05:55:54,359 [INFO] [MT5] Symbol detected: GOLD
+2026-04-13 05:55:54,359 [INFO] [BOT] Symbol: GOLD | Balance: $31.07
+2026-04-13 05:55:56,969 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 05:55:56,969 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-13 05:55:56,969 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-13 05:55:56,969 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-13 05:55:56,969 [INFO] [BOT] Session filtering: handled by session_config.py only
+2026-04-13 05:55:56,970 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-13 05:56:56,973 [INFO] [GOLD] Warmup: 57s remaining (scanning only)
+2026-04-13 05:57:56,977 [INFO] [GOLD] Warmup complete — trading active
+2026-04-13 05:57:59,595 [INFO] [GOLD] 05:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:57:59,610 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-13 05:58:59,614 [INFO] [GOLD] 05:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:58:59,622 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-13 05:59:59,625 [INFO] [GOLD] 05:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 05:59:59,630 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:00:59,635 [INFO] [GOLD] 06:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:00:59,641 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 06:01:59,643 [INFO] [GOLD] 06:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:01:59,650 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-13 06:02:59,654 [INFO] [GOLD] 06:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:02:59,660 [INFO] [GOLD] Volume 0.95x below threshold — skip
+2026-04-13 06:03:59,664 [INFO] [GOLD] 06:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:03:59,669 [INFO] [GOLD] Volume 1.23x below threshold — skip
+2026-04-13 06:04:59,672 [INFO] [GOLD] 06:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:04:59,677 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:05:59,680 [INFO] [GOLD] 06:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:05:59,685 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-13 06:06:59,689 [INFO] [GOLD] 06:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:06:59,696 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 06:07:59,699 [INFO] [GOLD] 06:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:07:59,705 [INFO] [GOLD] Volume 0.71x below threshold — skip
+2026-04-13 06:08:59,708 [INFO] [GOLD] 06:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:08:59,715 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-13 06:09:59,718 [INFO] [GOLD] 06:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:09:59,724 [INFO] [GOLD] Volume 1.13x below threshold — skip
+2026-04-13 06:10:59,728 [INFO] [GOLD] 06:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:10:59,734 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 06:11:59,737 [INFO] [GOLD] 06:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:11:59,745 [INFO] [GOLD] Volume 0.42x below threshold — skip
+2026-04-13 06:12:59,749 [INFO] [GOLD] 06:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:12:59,758 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-13 06:13:59,762 [INFO] [GOLD] 06:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:13:59,769 [INFO] [GOLD] Volume 0.83x below threshold — skip
+2026-04-13 06:14:59,773 [INFO] [GOLD] 06:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:14:59,779 [INFO] [GOLD] Volume 1.06x below threshold — skip
+2026-04-13 06:15:59,782 [INFO] [GOLD] 06:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:15:59,788 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 06:16:59,792 [INFO] [GOLD] 06:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:16:59,799 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-13 06:17:59,801 [INFO] [GOLD] 06:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:17:59,806 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-13 06:18:59,809 [INFO] [GOLD] 06:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:18:59,814 [INFO] [GOLD] Volume 0.91x below threshold — skip
+2026-04-13 06:19:59,817 [INFO] [GOLD] 06:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:19:59,823 [INFO] [GOLD] Volume 1.06x below threshold — skip
+2026-04-13 06:20:59,826 [INFO] [GOLD] 06:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:20:59,831 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 06:21:59,834 [INFO] [GOLD] 06:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:21:59,839 [INFO] [GOLD] Volume 0.47x below threshold — skip
+2026-04-13 06:22:59,841 [INFO] [GOLD] 06:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:22:59,847 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-13 06:23:59,850 [INFO] [GOLD] 06:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:23:59,855 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-13 06:24:59,858 [INFO] [GOLD] 06:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:24:59,864 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:25:59,866 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 06:25:59,867 [INFO] [GOLD] 06:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:25:59,873 [INFO] [GOLD] Volume 0.19x below threshold — skip
+2026-04-13 06:26:59,876 [INFO] [GOLD] 06:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:26:59,881 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 06:27:59,885 [INFO] [GOLD] 06:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:27:59,891 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-13 06:28:59,896 [INFO] [GOLD] 06:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:28:59,904 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-13 06:29:59,908 [INFO] [GOLD] 06:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:29:59,913 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:30:59,917 [INFO] [GOLD] 06:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:30:59,923 [INFO] [GOLD] Volume 0.10x below threshold — skip
+2026-04-13 06:31:59,926 [INFO] [GOLD] 06:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:31:59,932 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-13 06:32:59,935 [INFO] [GOLD] 06:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:32:59,939 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 06:33:59,942 [INFO] [GOLD] 06:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:33:59,948 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-13 06:34:59,951 [INFO] [GOLD] 06:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:34:59,957 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:35:59,961 [INFO] [GOLD] 06:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:35:59,966 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-13 06:36:59,970 [INFO] [GOLD] 06:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:36:59,978 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-13 06:37:59,982 [INFO] [GOLD] 06:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:37:59,988 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 06:38:59,991 [INFO] [GOLD] 06:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:38:59,996 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-13 06:40:00,001 [INFO] [GOLD] 06:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:40:00,006 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:41:00,010 [INFO] [GOLD] 06:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:41:00,019 [INFO] [GOLD] Volume 0.10x below threshold — skip
+2026-04-13 06:42:00,023 [INFO] [GOLD] 06:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:42:00,030 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 06:43:00,033 [INFO] [GOLD] 06:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:43:00,040 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-13 06:44:00,043 [INFO] [GOLD] 06:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:44:00,048 [INFO] [GOLD] Volume 0.55x below threshold — skip
+2026-04-13 06:45:00,051 [INFO] [GOLD] 06:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:45:00,056 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:46:00,061 [INFO] [GOLD] 06:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:46:00,070 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-13 06:47:00,074 [INFO] [GOLD] 06:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:47:00,080 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 06:48:00,083 [INFO] [GOLD] 06:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:48:00,089 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-13 06:49:00,093 [INFO] [GOLD] 06:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:49:00,097 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 06:50:00,101 [INFO] [GOLD] 06:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:50:00,107 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:51:00,110 [INFO] [GOLD] 06:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:51:00,118 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-13 06:52:00,121 [INFO] [GOLD] 06:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:52:00,126 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-13 06:53:00,129 [INFO] [GOLD] 06:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:53:00,134 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-13 06:54:00,138 [INFO] [GOLD] 06:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:54:00,144 [INFO] [GOLD] Volume 1.10x below threshold — skip
+2026-04-13 06:55:00,148 [INFO] [GOLD] 06:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:55:00,156 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 06:56:00,159 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 06:56:00,159 [INFO] [GOLD] 06:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:56:00,165 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 06:57:00,168 [INFO] [GOLD] 06:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:57:00,173 [INFO] [GOLD] Volume 0.39x below threshold — skip
+2026-04-13 06:58:00,177 [INFO] [GOLD] 06:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:58:00,185 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-13 06:59:00,188 [INFO] [GOLD] 06:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 06:59:00,194 [INFO] [GOLD] Volume 0.69x below threshold — skip
+2026-04-13 07:00:00,199 [INFO] [GOLD] 07:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:00:00,206 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 07:01:00,209 [INFO] [GOLD] 07:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:01:00,215 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-13 07:02:00,219 [INFO] [GOLD] 07:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:02:00,224 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 07:03:00,227 [INFO] [GOLD] 07:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:03:00,234 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-13 07:04:00,237 [INFO] [GOLD] 07:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:04:00,243 [INFO] [GOLD] Volume 0.93x below threshold — skip
+2026-04-13 07:05:00,246 [INFO] [GOLD] 07:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:05:00,254 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:06:00,258 [INFO] [GOLD] 07:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:06:00,265 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-13 07:07:00,268 [INFO] [GOLD] 07:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:07:00,273 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-13 07:08:00,277 [INFO] [GOLD] 07:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:08:00,286 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-13 07:09:00,290 [INFO] [GOLD] 07:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:09:00,297 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-13 07:10:00,302 [INFO] [GOLD] 07:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:10:00,310 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 07:11:00,313 [INFO] [GOLD] 07:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:11:00,320 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 07:12:00,324 [INFO] [GOLD] 07:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:12:00,332 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 07:13:00,334 [INFO] [GOLD] 07:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:13:00,339 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-13 07:14:00,343 [INFO] [GOLD] 07:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:14:00,350 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-13 07:15:00,353 [INFO] [GOLD] 07:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:15:00,359 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:16:00,362 [INFO] [GOLD] 07:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:16:00,367 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 07:17:00,370 [INFO] [GOLD] 07:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:17:00,378 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 07:18:00,382 [INFO] [GOLD] 07:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:18:00,389 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-13 07:19:00,393 [INFO] [GOLD] 07:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:19:00,401 [INFO] [GOLD] Volume 1.01x below threshold — skip
+2026-04-13 07:20:00,405 [INFO] [GOLD] 07:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:20:00,413 [INFO] [GOLD] Volume 1.22x below threshold — skip
+2026-04-13 07:21:00,417 [INFO] [GOLD] 07:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:21:00,423 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 07:22:00,427 [INFO] [GOLD] 07:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:22:00,434 [INFO] [GOLD] Volume 0.39x below threshold — skip
+2026-04-13 07:23:00,437 [INFO] [GOLD] 07:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:23:00,443 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 07:24:00,447 [INFO] [GOLD] 07:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:24:00,454 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 07:25:00,458 [INFO] [GOLD] 07:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:25:00,465 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:26:00,468 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 07:26:00,469 [INFO] [GOLD] 07:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:26:00,476 [INFO] [GOLD] Volume 0.19x below threshold — skip
+2026-04-13 07:27:00,480 [INFO] [GOLD] 07:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:27:00,487 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 07:28:00,491 [INFO] [GOLD] 07:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:28:00,499 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-13 07:29:00,503 [INFO] [GOLD] 07:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:29:00,510 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-13 07:30:00,514 [INFO] [GOLD] 07:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:30:00,519 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:31:00,523 [INFO] [GOLD] 07:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:31:00,529 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 07:32:00,531 [INFO] [GOLD] 07:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:32:00,537 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 07:33:00,541 [INFO] [GOLD] 07:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:33:00,547 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-13 07:34:00,552 [INFO] [GOLD] 07:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:34:00,559 [INFO] [GOLD] Volume 0.87x below threshold — skip
+2026-04-13 07:35:00,562 [INFO] [GOLD] 07:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:35:00,568 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:36:00,571 [INFO] [GOLD] 07:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:36:00,577 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 07:37:00,581 [INFO] [GOLD] 07:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:37:00,586 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-13 07:38:00,590 [INFO] [GOLD] 07:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:38:00,597 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 07:39:00,601 [INFO] [GOLD] 07:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:39:00,608 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 07:40:00,611 [INFO] [GOLD] 07:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:40:00,619 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:41:00,624 [INFO] [GOLD] 07:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:41:00,632 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 07:42:00,635 [INFO] [GOLD] 07:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:42:00,642 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 07:43:00,646 [INFO] [GOLD] 07:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:43:00,651 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 07:44:00,655 [INFO] [GOLD] 07:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:44:00,659 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-13 07:45:00,663 [INFO] [GOLD] 07:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:45:00,668 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:46:00,672 [INFO] [GOLD] 07:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:46:00,680 [INFO] [GOLD] Volume 0.18x below threshold — skip
+2026-04-13 07:47:00,683 [INFO] [GOLD] 07:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:47:00,691 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-13 07:48:00,695 [INFO] [GOLD] 07:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:48:00,703 [INFO] [GOLD] Volume 0.55x below threshold — skip
+2026-04-13 07:49:00,707 [INFO] [GOLD] 07:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:49:00,711 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-13 07:50:00,715 [INFO] [GOLD] 07:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:50:00,722 [INFO] [GOLD] Volume 0.00x below threshold — skip
+2026-04-13 07:51:00,725 [INFO] [GOLD] 07:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:51:00,733 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 07:52:00,736 [INFO] [GOLD] 07:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:52:00,742 [INFO] [GOLD] Volume 0.30x below threshold — skip
+2026-04-13 07:53:00,746 [INFO] [GOLD] 07:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:53:00,754 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 07:54:00,757 [INFO] [GOLD] 07:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:54:00,764 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-13 07:55:00,767 [INFO] [GOLD] 07:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:55:00,774 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 07:56:00,779 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 07:56:00,779 [INFO] [GOLD] 07:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:56:00,787 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-13 07:57:00,790 [INFO] [GOLD] 07:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:57:00,797 [INFO] [GOLD] Volume 0.47x below threshold — skip
+2026-04-13 07:58:00,799 [INFO] [GOLD] 07:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:58:00,807 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-13 07:59:00,810 [INFO] [GOLD] 07:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 07:59:00,819 [INFO] [GOLD] Volume 0.83x below threshold — skip
+2026-04-13 08:00:00,822 [INFO] [GOLD] 08:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:00:00,827 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 08:01:00,830 [INFO] [GOLD] 08:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:01:00,837 [INFO] [GOLD] Volume 0.42x below threshold — skip
+2026-04-13 08:02:00,841 [INFO] [GOLD] 08:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:02:00,849 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 08:03:00,852 [INFO] [GOLD] 08:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:03:00,857 [INFO] [GOLD] Volume 1.22x below threshold — skip
+2026-04-13 08:04:00,860 [INFO] [GOLD] 08:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:04:00,871 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 08:04:00,881 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 08:05:03,338 [INFO] [GOLD] 08:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:05:03,343 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:06:03,345 [INFO] [GOLD] 08:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:06:03,354 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-13 08:07:03,357 [INFO] [GOLD] 08:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:07:03,365 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 08:08:03,369 [INFO] [GOLD] 08:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:08:03,375 [INFO] [GOLD] Volume 0.97x below threshold — skip
+2026-04-13 08:09:03,380 [INFO] [GOLD] 08:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:09:03,388 [INFO] [GOLD] Volume 1.29x below threshold — skip
+2026-04-13 08:10:03,393 [INFO] [GOLD] 08:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:10:03,400 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:11:03,404 [INFO] [GOLD] 08:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:11:03,411 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 08:12:03,414 [INFO] [GOLD] 08:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:12:03,420 [INFO] [GOLD] Volume 0.68x below threshold — skip
+2026-04-13 08:13:03,423 [INFO] [GOLD] 08:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:13:03,432 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-13 08:14:03,436 [INFO] [GOLD] 08:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:14:03,443 [INFO] [GOLD] Volume 1.28x below threshold — skip
+2026-04-13 08:15:03,448 [INFO] [GOLD] 08:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:15:03,455 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:16:03,460 [INFO] [GOLD] 08:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:16:03,466 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 08:17:03,471 [INFO] [GOLD] 08:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:17:03,479 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 08:18:03,484 [INFO] [GOLD] 08:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:18:03,491 [INFO] [GOLD] Volume 0.89x below threshold — skip
+2026-04-13 08:19:03,495 [INFO] [GOLD] 08:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:19:03,504 [INFO] [GOLD] Volume 1.16x below threshold — skip
+2026-04-13 08:20:03,508 [INFO] [GOLD] 08:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:20:03,515 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:21:03,518 [INFO] [GOLD] 08:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:21:03,526 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-13 08:22:03,530 [INFO] [GOLD] 08:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:22:03,535 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-13 08:23:03,538 [INFO] [GOLD] 08:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:23:03,543 [INFO] [GOLD] Volume 0.79x below threshold — skip
+2026-04-13 08:24:03,546 [INFO] [GOLD] 08:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:24:03,553 [INFO] [GOLD] Volume 1.05x below threshold — skip
+2026-04-13 08:25:03,557 [INFO] [GOLD] 08:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:25:03,564 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:26:03,568 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 08:26:03,569 [INFO] [GOLD] 08:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:26:03,576 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 08:27:03,579 [INFO] [GOLD] 08:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:27:03,585 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 08:28:03,589 [INFO] [GOLD] 08:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:28:03,598 [INFO] [GOLD] Volume 0.64x below threshold — skip
+2026-04-13 08:29:03,602 [INFO] [GOLD] 08:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:29:03,607 [INFO] [GOLD] Volume 0.81x below threshold — skip
+2026-04-13 08:30:03,611 [INFO] [GOLD] 08:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:30:03,616 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:31:03,618 [INFO] [GOLD] 08:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:31:03,622 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 08:32:03,627 [INFO] [GOLD] 08:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:32:03,636 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-13 08:33:03,640 [INFO] [GOLD] 08:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:33:03,646 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 08:34:03,649 [INFO] [GOLD] 08:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:34:03,657 [INFO] [GOLD] Volume 1.05x below threshold — skip
+2026-04-13 08:35:03,660 [INFO] [GOLD] 08:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:35:03,668 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:36:03,672 [INFO] [GOLD] 08:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:36:03,679 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-13 08:37:03,683 [INFO] [GOLD] 08:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:37:03,689 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 08:38:03,693 [INFO] [GOLD] 08:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:38:03,698 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-13 08:39:03,703 [INFO] [GOLD] 08:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:39:03,709 [INFO] [GOLD] Volume 0.86x below threshold — skip
+2026-04-13 08:40:03,714 [INFO] [GOLD] 08:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:40:03,718 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:41:03,721 [INFO] [GOLD] 08:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:41:03,728 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 08:42:03,731 [INFO] [GOLD] 08:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:42:03,737 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 08:43:03,740 [INFO] [GOLD] 08:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:43:03,746 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-13 08:44:03,749 [INFO] [GOLD] 08:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:44:03,754 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-13 08:45:03,758 [INFO] [GOLD] 08:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:45:03,764 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 08:46:03,769 [INFO] [GOLD] 08:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:46:03,777 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 08:47:03,780 [INFO] [GOLD] 08:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:47:03,788 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 08:48:03,792 [INFO] [GOLD] 08:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:48:03,799 [INFO] [GOLD] Volume 0.56x below threshold — skip
+2026-04-13 08:49:03,804 [INFO] [GOLD] 08:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:49:03,811 [INFO] [GOLD] Volume 0.80x below threshold — skip
+2026-04-13 08:50:03,815 [INFO] [GOLD] 08:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:50:03,820 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:51:03,824 [INFO] [GOLD] 08:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:51:03,831 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 08:52:03,834 [INFO] [GOLD] 08:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:52:03,842 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 08:53:03,846 [INFO] [GOLD] 08:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:53:03,852 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-13 08:54:03,856 [INFO] [GOLD] 08:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:54:03,863 [INFO] [GOLD] Volume 1.04x below threshold — skip
+2026-04-13 08:55:03,867 [INFO] [GOLD] 08:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:55:03,877 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 08:56:03,881 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 08:56:03,881 [INFO] [GOLD] 08:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:56:03,890 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-13 08:57:03,894 [INFO] [GOLD] 08:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:57:03,901 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 08:58:03,904 [INFO] [GOLD] 08:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:58:03,909 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-13 08:59:03,913 [INFO] [GOLD] 08:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 08:59:03,919 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 09:00:03,922 [INFO] [GOLD] 09:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:00:03,929 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:01:03,932 [INFO] [GOLD] 09:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:01:03,940 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-13 09:02:03,944 [INFO] [GOLD] 09:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:02:03,952 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 09:03:03,956 [INFO] [GOLD] 09:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:03:03,962 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 09:04:03,966 [INFO] [GOLD] 09:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:04:03,972 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-13 09:05:03,975 [INFO] [GOLD] 09:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:05:03,982 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:06:03,985 [INFO] [GOLD] 09:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:06:03,990 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 09:07:03,993 [INFO] [GOLD] 09:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:07:03,998 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 09:08:04,001 [INFO] [GOLD] 09:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:08:04,006 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-13 09:09:04,010 [INFO] [GOLD] 09:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:09:04,017 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-13 09:10:04,020 [INFO] [GOLD] 09:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:10:04,027 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:11:04,031 [INFO] [GOLD] 09:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:11:04,039 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 09:12:04,043 [INFO] [GOLD] 09:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:12:04,050 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 09:13:04,053 [INFO] [GOLD] 09:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:13:04,060 [INFO] [GOLD] Volume 0.53x below threshold — skip
+2026-04-13 09:14:04,065 [INFO] [GOLD] 09:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:14:04,072 [INFO] [GOLD] Volume 0.68x below threshold — skip
+2026-04-13 09:15:04,076 [INFO] [GOLD] 09:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:15:04,084 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 09:16:04,088 [INFO] [GOLD] 09:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:16:04,097 [INFO] [GOLD] Volume 0.12x below threshold — skip
+2026-04-13 09:17:04,100 [INFO] [GOLD] 09:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:17:04,106 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 09:18:04,110 [INFO] [GOLD] 09:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:18:04,116 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-13 09:19:04,120 [INFO] [GOLD] 09:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:19:04,127 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-13 09:20:04,131 [INFO] [GOLD] 09:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:20:04,136 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 09:21:04,140 [INFO] [GOLD] 09:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:21:04,147 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-13 09:22:04,150 [INFO] [GOLD] 09:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:22:04,157 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 09:23:04,161 [INFO] [GOLD] 09:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:23:04,168 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-13 09:24:04,172 [INFO] [GOLD] 09:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:24:04,177 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 09:25:04,181 [INFO] [GOLD] 09:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:25:04,186 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 09:26:04,191 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 09:26:04,192 [INFO] [GOLD] 09:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:26:04,200 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 09:27:04,204 [INFO] [GOLD] 09:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:27:04,210 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-13 09:28:04,214 [INFO] [GOLD] 09:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:28:04,220 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 09:29:04,224 [INFO] [GOLD] 09:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:29:04,231 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 09:30:04,234 [INFO] [GOLD] 09:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:30:04,242 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 09:31:04,246 [INFO] [GOLD] 09:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:31:04,251 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 09:32:04,255 [INFO] [GOLD] 09:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:32:04,261 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-13 09:33:04,265 [INFO] [GOLD] 09:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:33:04,272 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 09:34:04,276 [INFO] [GOLD] 09:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:34:04,282 [INFO] [GOLD] Volume 0.90x below threshold — skip
+2026-04-13 09:35:04,286 [INFO] [GOLD] 09:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:35:04,294 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:36:04,298 [INFO] [GOLD] 09:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:36:04,302 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 09:37:04,306 [INFO] [GOLD] 09:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:37:04,311 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-13 09:38:04,315 [INFO] [GOLD] 09:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:38:04,322 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 09:39:04,326 [INFO] [GOLD] 09:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:39:04,331 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-13 09:40:04,336 [INFO] [GOLD] 09:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:40:04,344 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:41:04,349 [INFO] [GOLD] 09:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:41:04,356 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 09:42:04,359 [INFO] [GOLD] 09:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:42:04,364 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-13 09:43:04,368 [INFO] [GOLD] 09:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:43:04,373 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 09:44:04,377 [INFO] [GOLD] 09:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:44:04,385 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 09:45:04,387 [INFO] [GOLD] 09:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:45:04,395 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 09:46:04,400 [INFO] [GOLD] 09:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:46:04,407 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-13 09:47:04,411 [INFO] [GOLD] 09:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:47:04,418 [INFO] [GOLD] Volume 0.33x below threshold — skip
+2026-04-13 09:48:04,422 [INFO] [GOLD] 09:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:48:04,429 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 09:49:04,433 [INFO] [GOLD] 09:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:49:04,441 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-13 09:50:04,444 [INFO] [GOLD] 09:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:50:04,451 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 09:51:04,454 [INFO] [GOLD] 09:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:51:04,459 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-13 09:52:04,463 [INFO] [GOLD] 09:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:52:04,471 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 09:53:04,474 [INFO] [GOLD] 09:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:53:04,482 [INFO] [GOLD] Volume 0.71x below threshold — skip
+2026-04-13 09:54:04,486 [INFO] [GOLD] 09:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:54:04,494 [INFO] [GOLD] Volume 0.91x below threshold — skip
+2026-04-13 09:55:04,498 [INFO] [GOLD] 09:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:55:04,505 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 09:56:04,509 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 09:56:04,510 [INFO] [GOLD] 09:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:56:04,515 [INFO] [GOLD] Volume 0.27x below threshold — skip
+2026-04-13 09:57:04,519 [INFO] [GOLD] 09:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:57:04,528 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-13 09:58:04,532 [INFO] [GOLD] 09:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:58:04,540 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 09:59:04,543 [INFO] [GOLD] 09:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 09:59:04,548 [INFO] [GOLD] Volume 0.84x below threshold — skip
+2026-04-13 10:00:04,553 [INFO] [GOLD] 10:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:00:04,560 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 10:01:04,565 [INFO] [GOLD] 10:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:01:04,573 [INFO] [GOLD] Volume 0.23x below threshold — skip
+2026-04-13 10:02:04,576 [INFO] [GOLD] 10:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:02:04,581 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 10:03:04,585 [INFO] [GOLD] 10:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:03:04,593 [INFO] [GOLD] Volume 0.60x below threshold — skip
+2026-04-13 10:04:04,597 [INFO] [GOLD] 10:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:04:04,605 [INFO] [GOLD] Volume 0.78x below threshold — skip
+2026-04-13 10:05:04,609 [INFO] [GOLD] 10:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:05:04,615 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 10:06:04,620 [INFO] [GOLD] 10:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:06:04,627 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 10:07:04,631 [INFO] [GOLD] 10:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:07:04,638 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 10:08:04,643 [INFO] [GOLD] 10:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:08:04,650 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-13 10:09:04,654 [INFO] [GOLD] 10:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:09:04,661 [INFO] [GOLD] Volume 0.75x below threshold — skip
+2026-04-13 10:10:04,664 [INFO] [GOLD] 10:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:10:04,673 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 10:11:04,676 [INFO] [GOLD] 10:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:11:04,681 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 10:12:04,685 [INFO] [GOLD] 10:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:12:04,689 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 10:13:04,692 [INFO] [GOLD] 10:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:13:04,701 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 10:14:04,704 [INFO] [GOLD] 10:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:14:04,709 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-13 10:15:04,712 [INFO] [GOLD] 10:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:15:04,717 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 10:16:04,720 [INFO] [GOLD] 10:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:16:04,724 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 10:17:04,728 [INFO] [GOLD] 10:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:17:04,736 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-13 10:18:04,741 [INFO] [GOLD] 10:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:18:04,748 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-13 10:19:04,752 [INFO] [GOLD] 10:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:19:04,757 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-13 10:20:04,760 [INFO] [GOLD] 10:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:20:04,765 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 10:21:04,768 [INFO] [GOLD] 10:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:21:04,773 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-13 10:22:04,777 [INFO] [GOLD] 10:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:22:04,785 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 10:23:04,789 [INFO] [GOLD] 10:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:23:04,794 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 10:24:04,798 [INFO] [GOLD] 10:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:24:04,806 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 10:25:04,809 [INFO] [GOLD] 10:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:25:04,818 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 10:26:04,821 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 10:26:04,821 [INFO] [GOLD] 10:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:26:04,826 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 10:27:04,830 [INFO] [GOLD] 10:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:27:04,837 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 10:28:04,841 [INFO] [GOLD] 10:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:28:04,848 [INFO] [GOLD] Volume 0.66x below threshold — skip
+2026-04-13 10:29:04,852 [INFO] [GOLD] 10:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:29:04,859 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-13 10:30:04,863 [INFO] [GOLD] 10:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:30:04,872 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 10:31:04,876 [INFO] [GOLD] 10:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:31:04,882 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 10:32:04,887 [INFO] [GOLD] 10:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:32:04,895 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 10:33:04,899 [INFO] [GOLD] 10:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:33:04,907 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 10:34:04,911 [INFO] [GOLD] 10:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:34:04,917 [INFO] [GOLD] Volume 0.47x below threshold — skip
+2026-04-13 10:35:04,921 [INFO] [GOLD] 10:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:35:04,928 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 10:36:04,933 [INFO] [GOLD] 10:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:36:04,941 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-13 10:37:04,946 [INFO] [GOLD] 10:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:37:04,989 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 10:38:04,993 [INFO] [GOLD] 10:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:38:05,001 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-13 10:39:05,006 [INFO] [GOLD] 10:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:39:05,012 [INFO] [GOLD] Volume 0.41x below threshold — skip
+2026-04-13 10:40:05,017 [INFO] [GOLD] 10:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:40:05,022 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 10:41:05,027 [INFO] [GOLD] 10:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:41:05,036 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-13 10:42:05,039 [INFO] [GOLD] 10:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:42:05,045 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 10:43:05,048 [INFO] [GOLD] 10:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:43:05,054 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 10:44:05,058 [INFO] [GOLD] 10:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:44:05,066 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 10:45:05,070 [INFO] [GOLD] 10:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:45:05,075 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 10:46:05,080 [INFO] [GOLD] 10:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:46:05,087 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 10:47:05,090 [INFO] [GOLD] 10:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:47:05,097 [INFO] [GOLD] Volume 0.26x below threshold — skip
+2026-04-13 10:48:05,101 [INFO] [GOLD] 10:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:48:05,110 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 10:49:05,113 [INFO] [GOLD] 10:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:49:05,119 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-13 10:50:05,123 [INFO] [GOLD] 10:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:50:05,130 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 10:51:05,134 [INFO] [GOLD] 10:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:51:05,142 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 10:52:05,146 [INFO] [GOLD] 10:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:52:05,153 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 10:53:05,157 [INFO] [GOLD] 10:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:53:05,165 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-13 10:54:05,168 [INFO] [GOLD] 10:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:54:05,176 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 10:55:05,180 [INFO] [GOLD] 10:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:55:05,187 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 10:56:05,191 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 10:56:05,192 [INFO] [GOLD] 10:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:56:05,198 [INFO] [GOLD] Volume 0.06x below threshold — skip
+2026-04-13 10:57:05,202 [INFO] [GOLD] 10:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:57:05,209 [INFO] [GOLD] Volume 0.13x below threshold — skip
+2026-04-13 10:58:05,214 [INFO] [GOLD] 10:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:58:05,223 [INFO] [GOLD] Volume 0.24x below threshold — skip
+2026-04-13 10:59:05,228 [INFO] [GOLD] 10:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 10:59:05,235 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-13 11:00:05,238 [INFO] [GOLD] 11:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:00:05,243 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:01:05,247 [INFO] [GOLD] 11:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:01:05,254 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 11:02:05,257 [INFO] [GOLD] 11:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:02:05,264 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-13 11:03:05,267 [INFO] [GOLD] 11:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:03:05,272 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 11:04:05,276 [INFO] [GOLD] 11:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:04:05,281 [INFO] [GOLD] Volume 0.58x below threshold — skip
+2026-04-13 11:05:05,285 [INFO] [GOLD] 11:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:05:05,292 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 11:06:05,296 [INFO] [GOLD] 11:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:06:05,300 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-13 11:07:05,305 [INFO] [GOLD] 11:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:07:05,311 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 11:08:05,316 [INFO] [GOLD] 11:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:08:05,321 [INFO] [GOLD] Volume 0.30x below threshold — skip
+2026-04-13 11:09:05,326 [INFO] [GOLD] 11:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:09:05,333 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 11:10:05,338 [INFO] [GOLD] 11:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:10:05,346 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:11:05,350 [INFO] [GOLD] 11:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:11:05,356 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 11:12:05,360 [INFO] [GOLD] 11:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:12:05,366 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 11:13:05,370 [INFO] [GOLD] 11:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:13:05,377 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 11:14:05,381 [INFO] [GOLD] 11:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:14:05,386 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 11:15:05,390 [INFO] [GOLD] 11:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:15:05,403 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:16:05,407 [INFO] [GOLD] 11:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:16:05,421 [INFO] [GOLD] Volume 0.14x below threshold — skip
+2026-04-13 11:17:05,425 [INFO] [GOLD] 11:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:17:05,434 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 11:18:05,439 [INFO] [GOLD] 11:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:18:05,452 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 11:19:05,456 [INFO] [GOLD] 11:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:19:05,466 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-13 11:20:05,470 [INFO] [GOLD] 11:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:20:05,481 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:21:05,485 [INFO] [GOLD] 11:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:21:05,494 [INFO] [GOLD] Volume 0.18x below threshold — skip
+2026-04-13 11:22:05,498 [INFO] [GOLD] 11:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:22:05,510 [INFO] [GOLD] Volume 0.31x below threshold — skip
+2026-04-13 11:23:05,514 [INFO] [GOLD] 11:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:23:05,523 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 11:24:05,527 [INFO] [GOLD] 11:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:24:05,533 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 11:25:05,538 [INFO] [GOLD] 11:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:25:05,551 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 11:26:05,555 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 11:26:05,556 [INFO] [GOLD] 11:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:26:05,563 [INFO] [GOLD] Volume 0.19x below threshold — skip
+2026-04-13 11:27:05,567 [INFO] [GOLD] 11:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:27:05,576 [INFO] [GOLD] Volume 0.32x below threshold — skip
+2026-04-13 11:28:05,581 [INFO] [GOLD] 11:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:28:05,593 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 11:29:05,597 [INFO] [GOLD] 11:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:29:05,608 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-13 11:30:05,611 [INFO] [GOLD] 11:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:30:05,620 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:31:05,625 [INFO] [GOLD] 11:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:31:05,634 [INFO] [GOLD] Volume 0.14x below threshold — skip
+2026-04-13 11:32:05,638 [INFO] [GOLD] 11:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:32:05,649 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 11:33:05,653 [INFO] [GOLD] 11:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:33:05,664 [INFO] [GOLD] Volume 0.49x below threshold — skip
+2026-04-13 11:34:05,668 [INFO] [GOLD] 11:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:34:05,676 [INFO] [GOLD] Volume 0.68x below threshold — skip
+2026-04-13 11:35:05,681 [INFO] [GOLD] 11:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:35:05,691 [INFO] [GOLD] Volume 0.01x below threshold — skip
+2026-04-13 11:36:05,695 [INFO] [GOLD] 11:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:36:05,705 [INFO] [GOLD] Volume 0.13x below threshold — skip
+2026-04-13 11:37:05,708 [INFO] [GOLD] 11:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:37:05,717 [INFO] [GOLD] Volume 0.26x below threshold — skip
+2026-04-13 11:38:05,721 [INFO] [GOLD] 11:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:38:05,769 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 11:39:05,774 [INFO] [GOLD] 11:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:39:05,784 [INFO] [GOLD] Volume 0.51x below threshold — skip
+2026-04-13 11:40:05,788 [INFO] [GOLD] 11:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:40:05,794 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:41:05,797 [INFO] [GOLD] 11:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:41:05,808 [INFO] [GOLD] Volume 0.22x below threshold — skip
+2026-04-13 11:42:05,812 [INFO] [GOLD] 11:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:42:05,818 [INFO] [GOLD] Volume 0.39x below threshold — skip
+2026-04-13 11:43:05,822 [INFO] [GOLD] 11:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:43:05,829 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-13 11:44:05,833 [INFO] [GOLD] 11:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:44:05,840 [INFO] [GOLD] Volume 0.83x below threshold — skip
+2026-04-13 11:45:05,843 [INFO] [GOLD] 11:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:45:05,854 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 11:46:05,858 [INFO] [GOLD] 11:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:46:05,868 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 11:47:05,872 [INFO] [GOLD] 11:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:47:05,882 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-13 11:48:05,887 [INFO] [GOLD] 11:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:48:05,893 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 11:49:05,897 [INFO] [GOLD] 11:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:49:05,906 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 11:50:05,910 [INFO] [GOLD] 11:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:50:05,918 [INFO] [GOLD] Volume 0.02x below threshold — skip
+2026-04-13 11:51:05,922 [INFO] [GOLD] 11:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:51:05,933 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 11:52:05,938 [INFO] [GOLD] 11:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:52:05,950 [INFO] [GOLD] Volume 0.35x below threshold — skip
+2026-04-13 11:53:05,954 [INFO] [GOLD] 11:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:53:05,962 [INFO] [GOLD] Volume 0.54x below threshold — skip
+2026-04-13 11:54:05,965 [INFO] [GOLD] 11:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:54:05,975 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-13 11:55:05,979 [INFO] [GOLD] 11:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:55:05,985 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-13 11:56:08,845 [INFO] [BOT] Status:
+Open trades : 0/2 — none
+Daily P&L   : $0.00 (0.00% of Gold bal)
+Gold bal    : $31.07
+Crypto bal  : $1000.00
+Daily trades: 0/4
+Win streak  : 0
+Loss streak : 0/2
+Risk mult   : 1.00x
+Halted      : False
+Max dir/sym : 1
+Daily loss% : 3.0% limit (per-market)
+2026-04-13 11:56:08,846 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 11:56:08,847 [INFO] [GOLD] 11:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:56:08,855 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-13 11:57:08,859 [INFO] [GOLD] 11:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:57:08,869 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-13 11:58:08,872 [INFO] [GOLD] 11:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:58:08,882 [INFO] [GOLD] Volume 0.98x below threshold — skip
+2026-04-13 11:59:08,887 [INFO] [GOLD] 11:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 11:59:08,893 [INFO] [GOLD] Volume 1.21x below threshold — skip
+2026-04-13 12:00:08,896 [INFO] [GOLD] 12:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:00:08,905 [INFO] [GOLD] Volume 0.06x below threshold — skip
+2026-04-13 12:01:08,909 [INFO] [GOLD] 12:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:01:08,918 [INFO] [GOLD] Volume 0.34x below threshold — skip
+2026-04-13 12:02:08,922 [INFO] [GOLD] 12:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:02:08,934 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-13 12:03:08,938 [INFO] [GOLD] 12:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:03:08,946 [INFO] [GOLD] Volume 0.93x below threshold — skip
+2026-04-13 12:04:08,950 [INFO] [GOLD] 12:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:04:08,961 [INFO] [GOLD] Volume 1.10x below threshold — skip
+2026-04-13 12:05:08,966 [INFO] [GOLD] 12:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:05:08,972 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-13 12:06:08,977 [INFO] [GOLD] 12:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:06:08,987 [INFO] [GOLD] Volume 0.25x below threshold — skip
+2026-04-13 12:07:08,991 [INFO] [GOLD] 12:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:07:09,002 [INFO] [GOLD] Volume 0.44x below threshold — skip
+2026-04-13 12:08:09,006 [INFO] [GOLD] 12:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:08:09,017 [INFO] [GOLD] Volume 0.63x below threshold — skip
+2026-04-13 12:09:09,021 [INFO] [GOLD] 12:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:09:09,031 [INFO] [GOLD] Volume 0.84x below threshold — skip
+2026-04-13 12:10:09,036 [INFO] [GOLD] 12:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:10:09,044 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-13 12:11:09,048 [INFO] [GOLD] 12:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:11:09,056 [INFO] [GOLD] Volume 0.28x below threshold — skip
+2026-04-13 12:12:09,061 [INFO] [GOLD] 12:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:12:09,072 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 12:13:09,077 [INFO] [GOLD] 12:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:13:09,088 [INFO] [GOLD] Volume 0.72x below threshold — skip
+2026-04-13 12:14:09,092 [INFO] [GOLD] 12:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:14:09,103 [INFO] [GOLD] Volume 1.02x below threshold — skip
+2026-04-13 12:15:09,106 [INFO] [GOLD] 12:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:15:09,114 [INFO] [GOLD] Volume 0.07x below threshold — skip
+2026-04-13 12:16:09,118 [INFO] [GOLD] 12:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:16:09,127 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 12:17:09,132 [INFO] [GOLD] 12:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:17:09,143 [INFO] [GOLD] Volume 0.45x below threshold — skip
+2026-04-13 12:18:09,147 [INFO] [GOLD] 12:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:18:09,157 [INFO] [GOLD] Volume 0.59x below threshold — skip
+2026-04-13 12:19:09,162 [INFO] [GOLD] 12:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:19:09,173 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-13 12:20:09,177 [INFO] [GOLD] 12:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:20:09,188 [INFO] [GOLD] Volume 0.03x below threshold — skip
+2026-04-13 12:21:09,191 [INFO] [GOLD] 12:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:21:09,200 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 12:22:09,205 [INFO] [GOLD] 12:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:22:09,213 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 12:23:09,217 [INFO] [GOLD] 12:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:23:09,229 [INFO] [GOLD] Volume 0.61x below threshold — skip
+2026-04-13 12:24:09,233 [INFO] [GOLD] 12:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:24:09,243 [INFO] [GOLD] Volume 0.87x below threshold — skip
+2026-04-13 12:25:09,248 [INFO] [GOLD] 12:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:25:09,258 [INFO] [GOLD] Volume 0.05x below threshold — skip
+2026-04-13 12:26:09,261 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 12:26:09,262 [INFO] [GOLD] 12:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:26:09,274 [INFO] [GOLD] Volume 0.21x below threshold — skip
+2026-04-13 12:27:09,278 [INFO] [GOLD] 12:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:27:09,289 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-13 12:28:09,294 [INFO] [GOLD] 12:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:28:09,304 [INFO] [GOLD] Volume 0.60x below threshold — skip
+2026-04-13 12:29:09,309 [INFO] [GOLD] 12:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:29:09,320 [INFO] [GOLD] Volume 0.76x below threshold — skip
+2026-04-13 12:30:09,324 [INFO] [GOLD] 12:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:30:09,334 [INFO] [GOLD] Volume 0.09x below threshold — skip
+2026-04-13 12:31:09,338 [INFO] [GOLD] 12:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:31:09,348 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 12:32:09,351 [INFO] [GOLD] 12:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:32:09,359 [INFO] [GOLD] Volume 0.78x below threshold — skip
+2026-04-13 12:33:09,363 [INFO] [GOLD] 12:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:33:09,375 [INFO] [GOLD] Volume 1.04x below threshold — skip
+2026-04-13 12:34:09,379 [INFO] [GOLD] 12:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:34:09,391 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:34:09,409 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 12:35:12,145 [INFO] [GOLD] 12:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:35:12,155 [INFO] [GOLD] Volume 0.11x below threshold — skip
+2026-04-13 12:36:12,160 [INFO] [GOLD] 12:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:36:12,167 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 12:37:12,172 [INFO] [GOLD] 12:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:37:12,182 [INFO] [GOLD] Volume 0.92x below threshold — skip
+2026-04-13 12:38:12,185 [INFO] [GOLD] 12:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:38:12,197 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:38:12,200 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 12:39:14,896 [INFO] [GOLD] 12:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:39:14,908 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:39:14,911 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 12:40:17,857 [INFO] [GOLD] 12:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:40:17,865 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 12:41:17,869 [INFO] [GOLD] 12:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:41:17,881 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 12:42:17,887 [INFO] [GOLD] 12:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:42:17,895 [INFO] [GOLD] Volume 0.87x below threshold — skip
+2026-04-13 12:43:17,898 [INFO] [GOLD] 12:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:43:17,907 [INFO] [GOLD] Volume 1.20x below threshold — skip
+2026-04-13 12:44:17,911 [INFO] [GOLD] 12:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:44:17,923 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:44:17,926 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 12:45:20,711 [INFO] [GOLD] 12:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:45:20,722 [INFO] [GOLD] Volume 0.08x below threshold — skip
+2026-04-13 12:46:20,726 [INFO] [GOLD] 12:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:46:20,734 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 12:47:20,738 [INFO] [GOLD] 12:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:47:20,748 [INFO] [GOLD] Volume 0.80x below threshold — skip
+2026-04-13 12:48:20,752 [INFO] [GOLD] 12:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:48:20,764 [INFO] [GOLD] Volume 1.13x below threshold — skip
+2026-04-13 12:49:20,770 [INFO] [GOLD] 12:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:49:20,781 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:49:20,784 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 12:50:23,457 [INFO] [GOLD] 12:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:50:23,462 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 12:51:23,466 [INFO] [GOLD] 12:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:51:23,471 [INFO] [GOLD] Volume 0.43x below threshold — skip
+2026-04-13 12:52:23,475 [INFO] [GOLD] 12:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:52:23,485 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-13 12:53:23,490 [INFO] [GOLD] 12:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:53:23,500 [INFO] [GOLD] Volume 1.07x below threshold — skip
+2026-04-13 12:54:23,504 [INFO] [GOLD] 12:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:54:23,514 [INFO] [GOLD] Volume 1.28x below threshold — skip
+2026-04-13 12:55:23,519 [INFO] [GOLD] 12:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:55:23,531 [INFO] [GOLD] Volume 0.09x below threshold — skip
+2026-04-13 12:56:13,534 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 12:56:23,536 [INFO] [GOLD] 12:56 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:56:23,546 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-13 12:57:23,551 [INFO] [GOLD] 12:57 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:57:23,563 [INFO] [GOLD] Volume 0.82x below threshold — skip
+2026-04-13 12:58:23,567 [INFO] [GOLD] 12:58 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:58:23,577 [INFO] [GOLD] Volume 1.17x below threshold — skip
+2026-04-13 12:59:23,581 [INFO] [GOLD] 12:59 Thai | Session: SYDNEY_TOKYO
+2026-04-13 12:59:23,593 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 12:59:23,596 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 13:00:26,413 [INFO] [GOLD] 13:00 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:00:26,423 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 13:01:26,428 [INFO] [GOLD] 13:01 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:01:26,439 [INFO] [GOLD] Volume 0.57x below threshold — skip
+2026-04-13 13:02:26,444 [INFO] [GOLD] 13:02 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:02:26,454 [INFO] [GOLD] Volume 0.92x below threshold — skip
+2026-04-13 13:03:26,459 [INFO] [GOLD] 13:03 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:03:26,469 [INFO] [GOLD] Volume 1.23x below threshold — skip
+2026-04-13 13:04:26,473 [INFO] [GOLD] 13:04 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:04:26,484 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 13:04:26,488 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 13:05:29,061 [INFO] [GOLD] 13:05 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:05:29,069 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 13:06:29,074 [INFO] [GOLD] 13:06 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:06:29,082 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 13:07:29,087 [INFO] [GOLD] 13:07 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:07:29,095 [INFO] [GOLD] Volume 0.79x below threshold — skip
+2026-04-13 13:08:29,098 [INFO] [GOLD] 13:08 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:08:29,108 [INFO] [GOLD] Volume 1.12x below threshold — skip
+2026-04-13 13:09:29,111 [INFO] [GOLD] 13:09 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:09:29,122 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 13:09:29,125 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 13:10:31,613 [INFO] [GOLD] 13:10 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:10:31,621 [INFO] [GOLD] Volume 0.19x below threshold — skip
+2026-04-13 13:11:31,625 [INFO] [GOLD] 13:11 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:11:31,634 [INFO] [GOLD] Volume 0.50x below threshold — skip
+2026-04-13 13:12:31,637 [INFO] [GOLD] 13:12 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:12:31,648 [INFO] [GOLD] Volume 0.78x below threshold — skip
+2026-04-13 13:13:31,653 [INFO] [GOLD] 13:13 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:13:31,660 [INFO] [GOLD] Volume 1.11x below threshold — skip
+2026-04-13 13:14:31,665 [INFO] [GOLD] 13:14 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:14:31,676 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 13:14:31,679 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 13:15:34,326 [INFO] [GOLD] 13:15 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:15:34,335 [INFO] [GOLD] Volume 0.20x below threshold — skip
+2026-04-13 13:16:34,340 [INFO] [GOLD] 13:16 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:16:34,349 [INFO] [GOLD] Volume 0.52x below threshold — skip
+2026-04-13 13:17:34,352 [INFO] [GOLD] 13:17 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:17:34,360 [INFO] [GOLD] Volume 0.80x below threshold — skip
+2026-04-13 13:18:34,364 [INFO] [GOLD] 13:18 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:18:34,374 [INFO] [GOLD] Volume 1.10x below threshold — skip
+2026-04-13 13:19:34,379 [INFO] [GOLD] 13:19 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:19:34,388 [INFO] [GOLD] Action: SELL | H1: DOWN | H4: UP
+2026-04-13 13:19:34,390 [ERROR] [GOLD] Error: name 'score' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mooly\Downloads\botV6(FIX)\main.py", line 326, in run_gold
+    signal = check_gold_signal(CONFIG)
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 351, in check_gold_signal
+    d1_ok, d1_trend = check_daily_trend(
+                      ~~~~~~~~~~~~~~~~~^
+        symbol, action,
+        ^^^^^^^^^^^^^^^
+        config.get("gold_ema_fast", 21),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config.get("gold_ema_slow", 55),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mooly\Downloads\botV6(FIX)\gold_strategy.py", line 114, in check_daily_trend
+    new_score = score
+                ^^^^^
+NameError: name 'score' is not defined
+2026-04-13 13:20:37,043 [INFO] [GOLD] 13:20 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:20:37,050 [INFO] [GOLD] Volume 0.18x below threshold — skip
+2026-04-13 13:21:37,055 [INFO] [GOLD] 13:21 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:21:37,063 [INFO] [GOLD] Volume 0.42x below threshold — skip
+2026-04-13 13:22:37,067 [INFO] [GOLD] 13:22 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:22:37,077 [INFO] [GOLD] Volume 0.70x below threshold — skip
+2026-04-13 13:23:37,081 [INFO] [GOLD] 13:23 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:23:37,093 [INFO] [GOLD] Volume 0.96x below threshold — skip
+2026-04-13 13:24:37,096 [INFO] [GOLD] 13:24 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:24:37,104 [INFO] [GOLD] Volume 1.21x below threshold — skip
+2026-04-13 13:25:37,108 [INFO] [GOLD] 13:25 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:25:37,116 [INFO] [GOLD] Volume 0.18x below threshold — skip
+2026-04-13 13:26:17,119 [INFO] [MT5] Balance: $31.07 | Equity: $48.72
+2026-04-13 13:26:37,121 [INFO] [GOLD] 13:26 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:26:37,133 [INFO] [GOLD] Volume 0.38x below threshold — skip
+2026-04-13 13:27:37,137 [INFO] [GOLD] 13:27 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:27:37,150 [INFO] [GOLD] Volume 0.62x below threshold — skip
+2026-04-13 13:28:37,154 [INFO] [GOLD] 13:28 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:28:37,165 [INFO] [GOLD] Volume 0.85x below threshold — skip
+2026-04-13 13:29:37,168 [INFO] [GOLD] 13:29 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:29:37,179 [INFO] [GOLD] Volume 1.05x below threshold — skip
+2026-04-13 13:30:37,184 [INFO] [GOLD] 13:30 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:30:37,195 [INFO] [GOLD] Volume 0.17x below threshold — skip
+2026-04-13 13:31:37,198 [INFO] [GOLD] 13:31 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:31:37,204 [INFO] [GOLD] Volume 0.46x below threshold — skip
+2026-04-13 13:32:37,208 [INFO] [GOLD] 13:32 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:32:37,220 [INFO] [GOLD] Volume 0.74x below threshold — skip
+2026-04-13 13:33:37,224 [INFO] [GOLD] 13:33 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:33:37,234 [INFO] [GOLD] Volume 0.91x below threshold — skip
+2026-04-13 13:34:37,238 [INFO] [GOLD] 13:34 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:34:37,244 [INFO] [GOLD] Volume 1.13x below threshold — skip
+2026-04-13 13:35:37,248 [INFO] [GOLD] 13:35 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:35:37,258 [INFO] [GOLD] Volume 0.12x below threshold — skip
+2026-04-13 13:36:37,263 [INFO] [GOLD] 13:36 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:36:37,273 [INFO] [GOLD] Volume 0.36x below threshold — skip
+2026-04-13 13:37:37,277 [INFO] [GOLD] 13:37 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:37:37,289 [INFO] [GOLD] Volume 0.60x below threshold — skip
+2026-04-13 13:38:37,295 [INFO] [GOLD] 13:38 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:38:37,301 [INFO] [GOLD] Volume 0.73x below threshold — skip
+2026-04-13 13:39:37,304 [INFO] [GOLD] 13:39 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:39:37,312 [INFO] [GOLD] Volume 0.91x below threshold — skip
+2026-04-13 13:40:37,316 [INFO] [GOLD] 13:40 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:40:37,328 [INFO] [GOLD] Volume 0.16x below threshold — skip
+2026-04-13 13:41:37,333 [INFO] [GOLD] 13:41 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:41:37,343 [INFO] [GOLD] Volume 0.37x below threshold — skip
+2026-04-13 13:42:37,348 [INFO] [GOLD] 13:42 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:42:37,359 [INFO] [GOLD] Volume 0.55x below threshold — skip
+2026-04-13 13:43:37,363 [INFO] [GOLD] 13:43 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:43:37,375 [INFO] [GOLD] Volume 0.77x below threshold — skip
+2026-04-13 13:44:37,378 [INFO] [GOLD] 13:44 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:44:37,389 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-13 13:45:37,393 [INFO] [GOLD] 13:45 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:45:37,401 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 13:46:37,405 [INFO] [GOLD] 13:46 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:46:37,412 [INFO] [GOLD] Volume 0.40x below threshold — skip
+2026-04-13 13:47:37,415 [INFO] [GOLD] 13:47 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:47:37,425 [INFO] [GOLD] Volume 0.65x below threshold — skip
+2026-04-13 13:48:37,430 [INFO] [GOLD] 13:48 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:48:37,439 [INFO] [GOLD] Volume 0.84x below threshold — skip
+2026-04-13 13:49:37,443 [INFO] [GOLD] 13:49 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:49:37,453 [INFO] [GOLD] Volume 0.99x below threshold — skip
+2026-04-13 13:50:37,457 [INFO] [GOLD] 13:50 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:50:37,467 [INFO] [GOLD] Volume 0.12x below threshold — skip
+2026-04-13 13:51:37,470 [INFO] [GOLD] 13:51 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:51:37,475 [INFO] [GOLD] Volume 0.29x below threshold — skip
+2026-04-13 13:52:37,479 [INFO] [GOLD] 13:52 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:52:37,488 [INFO] [GOLD] Volume 0.48x below threshold — skip
+2026-04-13 13:53:37,492 [INFO] [GOLD] 13:53 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:53:37,500 [INFO] [GOLD] Volume 0.67x below threshold — skip
+2026-04-13 13:54:37,503 [INFO] [GOLD] 13:54 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:54:37,508 [INFO] [GOLD] Volume 0.84x below threshold — skip
+2026-04-13 13:55:37,512 [INFO] [GOLD] 13:55 Thai | Session: SYDNEY_TOKYO
+2026-04-13 13:55:37,521 [INFO] [GOLD] Volume 0.15x below threshold — skip
+2026-04-13 13:56:02,561 [INFO] [BOT] Stopped by user
+2026-04-13 14:37:41,386 [INFO] ============================================================
+2026-04-13 14:37:41,386 [INFO]   SUPER TRADER v6.1 - Starting
+2026-04-13 14:37:41,386 [INFO] ============================================================
+2026-04-13 14:37:41,403 [INFO] [MT5] Connected: Sutiporn Anekboonlab | Balance: $31.59 | Equity: $49.24
+2026-04-13 14:37:41,403 [INFO] [MT5] Symbol detected: GOLD
+2026-04-13 14:37:41,403 [INFO] [BOT] Symbol: GOLD | Balance: $31.59
+2026-04-13 14:37:43,764 [INFO] [MT5] Balance: $31.59 | Equity: $49.24
+2026-04-13 14:37:43,764 [INFO] [BOT] Scheduled: scan every 1min, positions every 2min
+2026-04-13 14:37:43,764 [INFO] [BOT] Warmup: 2 minutes — will observe but NOT trade
+2026-04-13 14:37:43,764 [INFO] [BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day
+2026-04-13 14:37:43,764 [INFO] [BOT] Session filtering: handled by session_config.py only
+2026-04-13 14:37:43,765 [INFO] [BOT] Press Ctrl+C to stop
+2026-04-13 14:38:43,768 [INFO] [GOLD] Warmup: 58s remaining (scanning only)
+2026-04-13 14:39:43,771 [INFO] [GOLD] Warmup complete — trading active
+2026-04-13 14:39:46,354 [INFO] [GOLD] 14:39 Thai | Session: LONDON
+2026-04-13 14:39:46,362 [INFO] [GOLD] Volume 0.90x below threshold — skip
+2026-04-13 14:40:46,365 [INFO] [GOLD] 14:40 Thai | Session: LONDON
+2026-04-13 14:40:46,372 [INFO] [GOLD] Volume 0.19x below threshold — skip

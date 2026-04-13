@@ -57,14 +57,30 @@ def get_mt5_ohlcv(symbol: str, tf_str: str, bars: int = 300) -> Optional[pd.Data
 # ── Volume confirmation ────────────────────────────────────────────────────────
 
 def check_volume_confirmation(
-    df: pd.DataFrame, min_volume_ratio: float = 1.3   # [FIX] default was 1.2
+    df: pd.DataFrame, min_volume_ratio: float = 1.3
 ) -> Tuple[bool, float]:
+    """
+    Checks if current volume is high enough.
+    [TURBO] Extrapolates volume if we are mid-candle (for 30s scans).
+    """
     if len(df) < 21:
         return False, 0.0
+        
     recent_volume = df["volume"].iloc[-1]
-    avg_volume    = df["volume"].iloc[-21:-1].mean()
+    
+    # Volume Extrapolation for mid-candle scans (M1 timeframe)
+    # If the current candle is less than 50 seconds old, we estimate full volume
+    now_sec = datetime.utcnow().second
+    if now_sec < 50:
+        progress = max(now_sec, 1) / 60.0
+        extrapolated_volume = recent_volume / progress
+        # log.debug(f"[VOL] Extrapolating: {recent_volume} -> {extrapolated_volume:.1f} (Progress: {progress:.2%})")
+        recent_volume = extrapolated_volume
+
+    avg_volume = df["volume"].iloc[-21:-1].mean()
     if avg_volume == 0:
         return False, 0.0
+        
     volume_ratio = recent_volume / avg_volume
     return volume_ratio >= min_volume_ratio, volume_ratio
 

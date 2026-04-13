@@ -455,23 +455,46 @@ if __name__ == "__main__":
 
     sync_open_positions()
 
-    # Schedule
-    schedule.every(1).minutes.do(run_all)
-    schedule.every(2).minutes.do(manage_positions)
+    # Import session_config here
+    from session_config import is_tradeable
+
+    last_scan_time = 0
+    last_manage_time = 0
+    
+    # Schedule daily/status tasks
     schedule.every(30).minutes.do(refresh_balance)
     schedule.every().day.at("00:00").do(send_daily_summary)
     schedule.every(6).hours.do(send_status)
 
-    log.info("[BOT] Scheduled: scan every 1min, positions every 2min")
+    log.info("[BOT] Turbo Mode Active: Dynamic scanning (30s Overlap / 60s Normal)")
     log.info("[BOT] Warmup: 2 minutes — will observe but NOT trade")
-    log.info("[BOT] Limits: max 1 trade/direction | 1.5%% daily loss | 4 trades/day")
-    log.info("[BOT] Session filtering: handled by session_config.py only")
+    log.info("[BOT] Limits: max 1 trade/direction | 1.5%% daily loss")
+    log.info("[BOT] Session filtering: handled by session_config.py")
     log.info("[BOT] Press Ctrl+C to stop")
 
     while True:
         try:
+            now = time.time()
+            
+            # Get current session parameters for dynamic interval
+            _, session_name, session_params = is_tradeable()
+            scan_interval = session_params.get("scan_interval", 60)
+            
+            # 1. Run main scan (run_all)
+            if now - last_scan_time >= scan_interval:
+                run_all()
+                last_scan_time = now
+            
+            # 2. Run position management (every 2 mins)
+            if now - last_manage_time >= 120:
+                manage_positions()
+                last_manage_time = now
+
+            # 3. Run other scheduled tasks
             schedule.run_pending()
-            time.sleep(10)
+            
+            # Sleep a short amount to remain responsive
+            time.sleep(5)
         except KeyboardInterrupt:
             log.info("[BOT] Stopped by user")
             notifier.send_plain("Bot Stopped")

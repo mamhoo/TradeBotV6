@@ -18,6 +18,7 @@ SESSION_PARAMS = {
         "rsi_sweet_range":  (40, 60),
         "atr_min_ratio":    0.0002,     # Require some volatility
         "min_volume_ratio": 1.05,       # Lower for Asian session
+        "scan_interval":    60,         # Standard 60s scan
         "active":           True,
         "description":      "Sydney & Tokyo - Thai 04:00-14:00",
     },
@@ -28,6 +29,7 @@ SESSION_PARAMS = {
         "rsi_sweet_range":  (38, 62),
         "atr_min_ratio":    0.0003,
         "min_volume_ratio": 1.10,       # Moderate for London session
+        "scan_interval":    60,         # Standard 60s scan
         "active":           True,
         "description":      "London Open - Thai 14:00-19:00",
     },
@@ -38,6 +40,7 @@ SESSION_PARAMS = {
         "rsi_sweet_range":  (35, 65),
         "atr_min_ratio":    0.0004,     # Require high movement
         "min_volume_ratio": 1.15,       # Higher for London/NY overlap
+        "scan_interval":    30,         # TURBO MODE: 30s scan
         "active":           True,
         "description":      "London+NY Overlap - Thai 19:00-23:00 (BEST)",
     },
@@ -48,6 +51,7 @@ SESSION_PARAMS = {
         "rsi_sweet_range":  (35, 65),
         "atr_min_ratio":    0.0003,
         "min_volume_ratio": 1.10,       # Moderate for New York session
+        "scan_interval":    60,         # Standard 60s scan
         "active":           True,
         "description":      "NY Late Session - Thai 23:00-04:00",
     }

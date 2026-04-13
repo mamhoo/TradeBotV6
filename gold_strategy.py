@@ -20,7 +20,7 @@ from typing import Optional, Tuple, List
 from datetime import datetime, time as dt_time
 from signal_model import Signal
 from sr_zones import build_zones, get_nearest_zones, Zone
-from indicators import rsi, ema, atr, macd, get_trend
+from indicators import rsi, ema, atr, macd, get_trend, rsi_divergence
 from session_config import is_tradeable, thai_time_str
 
 log = logging.getLogger(__name__)

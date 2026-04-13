@@ -183,38 +183,41 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
     spread_buf = (tick.ask - tick.bid) * 2 if tick else 0
 
     if bias == "BUY":
-        # SL below the demand OB low (or ATR-based if no OB)
+        # [IMPROVEMENT] Wider SL for SMC (0.3 -> 0.8 ATR buffer)
         ob = ctx.nearest_demand_ob()
         if ob and ob.is_fresh:
-            sl = ob.low - current_atr * 0.3 - spread_buf
+            sl = ob.low - current_atr * 0.8 - spread_buf
             log.info("[SMC] SL below Demand OB low: %.2f", sl)
         else:
-            sl = current_price - current_atr * 1.5 - spread_buf
+            sl = current_price - current_atr * 2.0 - spread_buf
 
         sl = min(sl, current_price - min_stop - spread_buf)
 
         # TP at nearest BSL (liquidity above) or next swing high
         bsl = ctx.bsl_levels[0] if ctx.bsl_levels else None
         if bsl and bsl.price > current_price:
-            tp = bsl.price
+            # [IMPROVEMENT] Ensure TP is at least 1.5R
+            tp = max(bsl.price, current_price + (current_price - sl) * 1.5)
             log.info("[SMC] TP at BSL: %.2f", tp)
         else:
             risk  = current_price - sl
             tp    = current_price + risk * 2.0   # default 2R
 
     else:  # SELL
+        # [IMPROVEMENT] Wider SL for SMC (0.3 -> 0.8 ATR buffer)
         ob = ctx.nearest_supply_ob()
         if ob and ob.is_fresh:
-            sl = ob.high + current_atr * 0.3 + spread_buf
+            sl = ob.high + current_atr * 0.8 + spread_buf
             log.info("[SMC] SL above Supply OB high: %.2f", sl)
         else:
-            sl = current_price + current_atr * 1.5 + spread_buf
+            sl = current_price + current_atr * 2.0 + spread_buf
 
         sl = max(sl, current_price + min_stop + spread_buf)
 
         ssl = ctx.ssl_levels[0] if ctx.ssl_levels else None
         if ssl and ssl.price < current_price:
-            tp = ssl.price
+            # [IMPROVEMENT] Ensure TP is at least 1.5R
+            tp = min(ssl.price, current_price - (sl - current_price) * 1.5)
             log.info("[SMC] TP at SSL: %.2f", tp)
         else:
             risk = sl - current_price

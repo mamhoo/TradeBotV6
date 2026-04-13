@@ -417,6 +417,7 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
 
     # 12. Scoring
     score   = 0
+    final_score = 0  # [FIX] Initialize final_score to avoid NameError
     reasons = []
 
     if d1_trend != "UNKNOWN":
@@ -494,8 +495,7 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
     # [FIX] Use session-specific min_score from session_config if available
     min_score = session_params.get("min_score", config.get("gold_min_score", 60))
 
-    # [FIX] score already includes d1_penalty from line 481. 
-    # Do not add it again.
+    # [FIX] score already includes d1_penalty.
     final_score = score
 
     if final_score < min_score:
@@ -505,9 +505,14 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
     # 14. Dynamic R:R
     trend_aligned = "ALIGNED" in reasons
     session_bonus = session == "LONDON_NY_OVERLAP"
+    
+    # [IMPROVEMENT] Stricter trend alignment for R:R
+    # Only give trend bonus if both H1 and H4 are aligned with the trade
+    effective_trend = h1_trend if (h1_trend == h4_trend and h1_trend != "NEUTRAL") else "NEUTRAL"
+    
     rr_ratio = calculate_dynamic_rr(
         touches if at_zone else 0,
-        h1_trend if trend_aligned else "NEUTRAL",
+        effective_trend,
         session_bonus,
     )
 
@@ -519,24 +524,28 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
 
     h1_atr = atr(df_h1, 14).iloc[-1]
 
+    # [IMPROVEMENT] Wider ATR multiplier for safer SL (1.2 -> 1.8)
+    sl_atr_mult = config.get("gold_sl_atr_mult", 1.8)
+    
     # Market Structure Stop Loss
     # Calculate potential SL based on ATR
-    atr_sl_buy  = current_price - h1_atr * config.get("gold_sl_atr_mult", 1.2) - spread_buf
-    atr_sl_sell = current_price + h1_atr * config.get("gold_sl_atr_mult", 1.2) + spread_buf
+    atr_sl_buy  = current_price - h1_atr * sl_atr_mult - spread_buf
+    atr_sl_sell = current_price + h1_atr * sl_atr_mult + spread_buf
 
     # Calculate potential SL based on nearest S/R zone
-    sr_sl_buy  = (zone_obj.price - (current_atr * 0.5)) if at_zone and action == "BUY" else float('-inf')
-    sr_sl_sell = (zone_obj.price + (current_atr * 0.5)) if at_zone and action == "SELL" else float('inf')
+    # [IMPROVEMENT] Add more buffer to SR-SL (0.5 -> 0.8 ATR)
+    sr_sl_buy  = (zone_obj.price - (current_atr * 0.8)) if at_zone and action == "BUY" else float('-inf')
+    sr_sl_sell = (zone_obj.price + (current_atr * 0.8)) if at_zone and action == "SELL" else float('inf')
 
     if action == "BUY":
-        # For BUY, SL should be below current price. Choose the higher (less risky) of ATR-SL or SR-SL
-        sl = max(atr_sl_buy, sr_sl_buy)
+        # For BUY, SL should be below current price. Choose the lower (safer) of ATR-SL or SR-SL
+        sl = min(atr_sl_buy, sr_sl_buy) if at_zone else atr_sl_buy
         if (current_price - sl) < min_stop:
             sl = current_price - min_stop - spread_buf
         tp = current_price + (current_price - sl) * rr_ratio
     else:
-        # For SELL, SL should be above current price. Choose the lower (less risky) of ATR-SL or SR-SL
-        sl = min(atr_sl_sell, sr_sl_sell)
+        # For SELL, SL should be above current price. Choose the higher (safer) of ATR-SL or SR-SL
+        sl = max(atr_sl_sell, sr_sl_sell) if at_zone else atr_sl_sell
         if (sl - current_price) < min_stop:
             sl = current_price + min_stop + spread_buf
         tp = current_price - (sl - current_price) * rr_ratio

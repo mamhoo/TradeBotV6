@@ -84,8 +84,13 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
     current_atr   = atr(df_h1, 14).iloc[-1]
 
     # ── 4. Volume confirmation ────────────────────────────────────────────
+    # [FIX] Avoid ambiguous DataFrame truth value check
+    df_vol = get_mt5_ohlcv(symbol, "M5", 50)
+    if df_vol is None or len(df_vol) == 0:
+        df_vol = df_m15
+
     vol_ok, vol_ratio = check_volume_confirmation(
-        get_mt5_ohlcv(symbol, "M5", 50) or df_m15,
+        df_vol,
         min_volume_ratio=config.get("gold_min_volume_ratio", 1.3)
     )
     if not vol_ok:

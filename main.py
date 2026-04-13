@@ -244,7 +244,7 @@ def load_existing_positions():
             trend_1h="UNKNOWN",
             rsi=50.0,
             risk_usdt=0.0,
-            timestamp=dt.utcnow(),
+            timestamp=dt.now(timezone.utc),
         )
         _ticket_to_signal[p.ticket] = stub
         log.info("[SYNC] Registered pre-existing position: %s %s ticket=%d",
@@ -313,7 +313,7 @@ def run_gold():
 
     # Warmup
     if not WARMUP_COMPLETE:
-        elapsed = (datetime.now() - STARTUP_TIME).total_seconds()
+        elapsed = (datetime.now(timezone.utc) - STARTUP_TIME).total_seconds()
         remaining = max(0, 120 - elapsed)
         if remaining > 0:
             log.info("[GOLD] Warmup: %.0fs remaining (scanning only)", remaining)
@@ -422,7 +422,7 @@ if __name__ == "__main__":
     log.info("  SUPER TRADER v6.1 - Starting")
     log.info("=" * 60)
 
-    STARTUP_TIME = datetime.now()
+    STARTUP_TIME = datetime.now(timezone.utc)
 
     mt5_ok = init_mt5()
     if not mt5_ok:

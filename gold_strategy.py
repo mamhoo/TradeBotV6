@@ -71,8 +71,8 @@ def check_volume_confirmation(
     # Volume Extrapolation for mid-candle scans (M5 timeframe)
     # If the current candle is less than 250 seconds old, we estimate full volume
     # Note: M5 candle is 300 seconds.
-    now_min = datetime.utcnow().minute
-    now_sec = datetime.utcnow().second
+    now_min = datetime.now(timezone.utc).minute
+    now_sec = datetime.now(timezone.utc).second
     elapsed_in_m5 = (now_min % 5) * 60 + now_sec
     
     if elapsed_in_m5 < 250:
@@ -107,7 +107,7 @@ def is_in_cooldown(symbol: str) -> bool:
     last = _last_sl_time.get(symbol)
     if last is None:
         return False
-    elapsed = (datetime.utcnow() - last).total_seconds() / 60
+    elapsed = (datetime.now(timezone.utc) - last).total_seconds() / 60
     if elapsed < COOLDOWN_MINUTES:
         log.info(
             "[GOLD] Cooldown active: %.0f min remaining after last SL",
@@ -118,7 +118,7 @@ def is_in_cooldown(symbol: str) -> bool:
 
 
 def register_sl_hit(symbol: str):
-    _last_sl_time[symbol] = datetime.utcnow()
+    _last_sl_time[symbol] = datetime.now(timezone.utc)
     log.info("[GOLD] SL registered — cooldown started for %s", symbol)
 
 

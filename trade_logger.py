@@ -113,17 +113,25 @@ class TradeLogger:
         except Exception as e:
             log.error(f"[LOG] DB error: {e}")
 
-    def update_result(self, symbol: str, result: str, pnl_usdt: float):
+    def update_result(self, symbol: str, result: str, pnl_usdt: float, action: str = None):
         """Update a trade with result and P&L."""
         try:
             with sqlite3.connect(DB_PATH) as conn:
-                # Find most recent open trade for this symbol
-                row = conn.execute("""
-                    SELECT id FROM trades
-                    WHERE symbol = ? AND result = 'OPEN'
-                    ORDER BY id DESC
-                    LIMIT 1
-                """, (symbol,)).fetchone()
+                # Find most recent open trade for this symbol (and action if provided)
+                if action:
+                    row = conn.execute("""
+                        SELECT id FROM trades
+                        WHERE symbol = ? AND action = ? AND result = 'OPEN'
+                        ORDER BY id DESC
+                        LIMIT 1
+                    """, (symbol, action)).fetchone()
+                else:
+                    row = conn.execute("""
+                        SELECT id FROM trades
+                        WHERE symbol = ? AND result = 'OPEN'
+                        ORDER BY id DESC
+                        LIMIT 1
+                    """, (symbol,)).fetchone()
 
                 if row is None:
                     log.warning(f"[LOG] No open trade found for {symbol}")

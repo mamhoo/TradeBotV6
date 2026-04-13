@@ -104,11 +104,11 @@ def register_sl_hit(symbol: str):
 
 # ── Daily trend gate (D1) ──────────────────────────────────────────────────────
 
-def check_daily_trend(symbol: str, action: str, fast: int = 21, slow: int = 55) -> Tuple[bool, str]:
+def check_daily_trend(symbol: str, action: str, fast: int = 21, slow: int = 55) -> Tuple[bool, str, int]:
     df_d1 = get_mt5_ohlcv(symbol, "D1", bars=100)
     if df_d1 is None or len(df_d1) < slow + 5:
         log.warning("[GOLD] D1 data missing — skipping D1 gate")
-        return True, "UNKNOWN"
+        return True, "UNKNOWN", 0
 
     d1_trend = get_trend(df_d1, fast, slow)
     penalty = 0
@@ -116,12 +116,14 @@ def check_daily_trend(symbol: str, action: str, fast: int = 21, slow: int = 55) 
     if action == "BUY" and d1_trend == "DOWN":
         log.info("[GOLD] D1 gate: BUY vs Daily DOWN trend — Penalty -15 points")
         penalty = -15
-    if action == "SELL" and d1_trend == "UP":
+        return True, d1_trend, penalty
+    elif action == "SELL" and d1_trend == "UP":
         log.info("[GOLD] D1 gate: SELL vs Daily UP trend — Penalty -15 points")
         penalty = -15
+        return True, d1_trend, penalty
     else:
         log.info("[GOLD] D1 trend: %s — %s allowed", d1_trend, action)
-        return penalty, d1_trend
+        return True, d1_trend, penalty
 
 
 # ── Trend from H1 + H4 ─────────────────────────────────────────────────────────

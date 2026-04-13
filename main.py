@@ -174,7 +174,7 @@ def sync_open_positions():
         result_word = "WIN" if real_pnl > 0 else "LOSS"
 
         risk.close_trade(signal.symbol, real_pnl, signal.action)
-        logger.update_result(signal.symbol, result_word, real_pnl)
+        logger.update_result(signal.symbol, result_word, real_pnl, signal.action)
 
         log.info("[SYNC] %s %s closed | %s | P&L: $%.2f (ticket %d)",
                  signal.symbol, signal.action, result_word, real_pnl, ticket)

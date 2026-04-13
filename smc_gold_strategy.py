@@ -76,8 +76,9 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
     df_h4  = get_mt5_ohlcv(symbol, "H4",  150)
     df_d1  = get_mt5_ohlcv(symbol, "D1",  60)
 
-    if any(d is None for d in [df_m15, df_h1, df_h4]):
-        log.warning("[SMC] Missing data — skip")
+    # [FIX] Robust check for None or empty DataFrames
+    if any(d is None or (isinstance(d, pd.DataFrame) and d.empty) for d in [df_m15, df_h1, df_h4]):
+        log.warning("[SMC] Missing or empty data — skip")
         return None
 
     current_price = df_h1["close"].iloc[-1]
@@ -305,8 +306,9 @@ def check_gold_signal_combined(config: dict) -> Optional[Signal]:
     except Exception as e:
         log.error("[COMBINED] SMC signal error: %s", e)
 
+    # [FIX] Explicitly check for Signal objects to avoid ambiguous DataFrame truth value errors
     # Both fired — take the higher score
-    if sig_classic and sig_smc:
+    if sig_classic is not None and sig_smc is not None:
         if sig_classic.action != sig_smc.action:
             # Conflicting direction — skip (don't trade when strategies disagree)
             log.info("[COMBINED] Classic=%s SMC=%s conflict — skip",
@@ -318,10 +320,10 @@ def check_gold_signal_combined(config: dict) -> Optional[Signal]:
         return winner
 
     # Only one fired
-    if sig_smc:
+    if sig_smc is not None:
         log.info("[COMBINED] SMC only: %s score=%d", sig_smc.action, sig_smc.score)
         return sig_smc
-    if sig_classic:
+    if sig_classic is not None:
         log.info("[COMBINED] Classic only: %s score=%d", sig_classic.action, sig_classic.score)
         return sig_classic
 

@@ -344,8 +344,9 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
     df_h1  = get_mt5_ohlcv(symbol, "H1",  300)
     df_h4  = get_mt5_ohlcv(symbol, "H4",  200)
 
-    if any(d is None for d in [df_m5, df_m15, df_h1, df_h4]):
-        log.warning("[GOLD] Missing OHLCV data — skip")
+    # [FIX] Robust check for None or empty DataFrames
+    if any(d is None or (isinstance(d, pd.DataFrame) and d.empty) for d in [df_m5, df_m15, df_h1, df_h4]):
+        log.warning("[GOLD] Missing or empty OHLCV data — skip")
         return None
 
     current_price = df_m5["close"].iloc[-1]

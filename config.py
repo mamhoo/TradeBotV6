@@ -55,7 +55,7 @@ CONFIG = {
     # ── Gold Strategy ─────────────────────────────────────────────────────────
     "gold_lot_base":        parse_float(os.getenv("GOLD_LOT_BASE"),       0.01),
     "gold_account_balance": parse_float(os.getenv("GOLD_ACCOUNT_BALANCE"), 50),
-    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        0.5),
+    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        0.25),
     "gold_rr_ratio":        parse_float(os.getenv("GOLD_RR_RATIO"),        1.5),
     "gold_sr_lookback":     parse_int(os.getenv("GOLD_SR_LOOKBACK"),       200),
     "gold_sr_touches":      parse_int(os.getenv("GOLD_SR_TOUCHES"),        2),
@@ -70,11 +70,11 @@ CONFIG = {
     # [NEW v6.0] Signal quality gates
     "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.15),
 
-    "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            55),
+    "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            70),
     "gold_volume_filter":      True,
     "gold_anti_chase_atr_mult": parse_float(os.getenv("GOLD_ANTI_CHASE_ATR_MULT"), 1.5),
     "gold_rsi_lookback":        parse_int(os.getenv("GOLD_RSI_LOOKBACK"),        20),
-    "gold_sl_atr_mult":         parse_float(os.getenv("GOLD_SL_ATR_MULT"),         1.2),
+    "gold_sl_atr_mult":         parse_float(os.getenv("GOLD_SL_ATR_MULT"),         2.0),
 
     # ── Spread Control ────────────────────────────────────────────────────────
     "gold_max_spread_pips": parse_int(os.getenv("GOLD_MAX_SPREAD_PIPS"), 80),
@@ -90,5 +90,5 @@ CONFIG = {
     "gold_scalp_rr":              parse_float(os.getenv("GOLD_SCALP_RR"), 1.5),
     "max_open_trades":            2,
     "max_trades_per_direction":   1,    # [CHANGE] was 2
-    "max_daily_loss_pct":         parse_float(os.getenv("MAX_DAILY_LOSS_PCT"), 1.5),  # [CHANGE] was 3.0
+    "max_daily_loss_pct":         parse_float(os.getenv("MAX_DAILY_LOSS_PCT"), 1.0),  # [EMERGENCY] Tightened to 1.0%
 }

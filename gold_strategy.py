@@ -17,7 +17,7 @@ import pandas as pd
 import MetaTrader5 as mt5
 import time
 from typing import Optional, Tuple, List
-from datetime import datetime, time as dt_time
+from datetime import datetime, time as dt_time, timezone
 from signal_model import Signal
 from sr_zones import build_zones, get_nearest_zones, Zone
 from indicators import rsi, ema, atr, macd, get_trend, rsi_divergence

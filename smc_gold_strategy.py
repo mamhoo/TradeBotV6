@@ -27,7 +27,7 @@ import logging
 import pandas as pd
 import MetaTrader5 as mt5
 from typing import Optional, Tuple
-from datetime import datetime
+from datetime import datetime, timezone
 
 from signal_model import Signal
 from smc_concepts import (

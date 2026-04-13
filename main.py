@@ -290,6 +290,7 @@ def manage_positions():
 
             result = mt5.order_send({
                 "action":   mt5.TRADE_ACTION_SLTP,
+                "symbol":   symbol,
                 "position": ticket,
                 "sl":       round(new_trailing, 2),
                 "tp":       pos["tp"],
@@ -323,7 +324,8 @@ def run_gold():
             notifier.send_plain("[BOT] Warmup complete — now placing orders")
 
     try:
-        signal = check_gold_signal(CONFIG)
+        # [FIX] Use combined SMC + Classic strategy for higher quality signals
+        signal = check_gold_signal_combined(CONFIG)
         if signal is None:
             return
         if not risk.can_trade(signal):

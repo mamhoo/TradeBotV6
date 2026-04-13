@@ -68,13 +68,17 @@ def check_volume_confirmation(
         
     recent_volume = df["volume"].iloc[-1]
     
-    # Volume Extrapolation for mid-candle scans (M1 timeframe)
-    # If the current candle is less than 50 seconds old, we estimate full volume
+    # Volume Extrapolation for mid-candle scans (M5 timeframe)
+    # If the current candle is less than 250 seconds old, we estimate full volume
+    # Note: M5 candle is 300 seconds.
+    now_min = datetime.utcnow().minute
     now_sec = datetime.utcnow().second
-    if now_sec < 50:
-        progress = max(now_sec, 1) / 60.0
+    elapsed_in_m5 = (now_min % 5) * 60 + now_sec
+    
+    if elapsed_in_m5 < 250:
+        progress = max(elapsed_in_m5, 1) / 300.0
         extrapolated_volume = recent_volume / progress
-        # log.debug(f"[VOL] Extrapolating: {recent_volume} -> {extrapolated_volume:.1f} (Progress: {progress:.2%})")
+        # log.debug(f"[VOL] Extrapolating M5: {recent_volume} -> {extrapolated_volume:.1f} (Progress: {progress:.2%})")
         recent_volume = extrapolated_volume
 
     avg_volume = df["volume"].iloc[-21:-1].mean()
@@ -486,15 +490,15 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
     log.info("[GOLD] Score: %d | %s", score, " | ".join(reasons))
 
     # 13. Score threshold
-    min_score = config.get(
-        "gold_min_score",
-        55 if session == "LONDON_NY_OVERLAP" else 60,
-    )
+    # [FIX] Use session-specific min_score from session_config if available
+    min_score = session_params.get("min_score", config.get("gold_min_score", 60))
 
-    final_score = score + d1_penalty
+    # [FIX] score already includes d1_penalty from line 481. 
+    # Do not add it again.
+    final_score = score
 
     if final_score < min_score:
-        log.info("[GOLD] Score %d (after D1: %d) < %d — skip", final_score, d1_penalty, min_score)
+        log.info("[GOLD] Score %d < %d (Session: %s) — skip", final_score, min_score, session)
         return None
 
     # 14. Dynamic R:R
@@ -663,11 +667,14 @@ def calculate_trailing_stop(
 ) -> float:
     trail_distance = atr_value * trail_mult
     if action == "BUY":
-        new_sl = max(current_price - trail_distance, entry_price)
+        # For BUY, SL trails UP. Cap at entry_price only if we want breakeven.
+        # But standard trailing should allow going above entry.
+        new_sl = current_price - trail_distance
         if current_sl is not None:
             new_sl = max(new_sl, current_sl)
     else:
-        new_sl = min(current_price + trail_distance, entry_price)
+        # For SELL, SL trails DOWN.
+        new_sl = current_price + trail_distance
         if current_sl is not None:
             new_sl = min(new_sl, current_sl)
     return new_sl

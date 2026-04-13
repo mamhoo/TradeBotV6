@@ -86,7 +86,8 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
     # ── 4. Volume confirmation ────────────────────────────────────────────
     # [FIX] Avoid ambiguous DataFrame truth value check
     df_vol = get_mt5_ohlcv(symbol, "M5", 50)
-    if df_vol is None or len(df_vol) == 0:
+    # Use .empty for robust DataFrame check
+    if df_vol is None or df_vol.empty:
         df_vol = df_m15
 
     vol_ok, vol_ratio = check_volume_confirmation(
@@ -99,10 +100,10 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
 
     # ── 5. HTF structure (H4 / D1) — determine bias ───────────────────────
     ms_h4 = analyze_market_structure(df_h4.tail(100), window=5)
-    ms_d1 = analyze_market_structure(df_d1.tail(50), window=3) if df_d1 is not None else None
+    ms_d1 = analyze_market_structure(df_d1.tail(50), window=3) if (df_d1 is not None and not df_d1.empty) else None
 
     log.info("[SMC] H4 structure: %s | last_event: %s", ms_h4.trend, ms_h4.last_event)
-    if ms_d1:
+    if ms_d1 is not None:
         log.info("[SMC] D1 structure: %s", ms_d1.trend)
 
     # Determine directional bias from H4
@@ -115,7 +116,8 @@ def check_gold_signal_smc(config: dict) -> Optional[Signal]:
         return None
 
     # D1 gate: don't trade against daily
-    if ms_d1:
+    # [FIX] ms_d1 is a MarketStructure object, but let's be safe
+    if ms_d1 is not None:
         if bias == "BUY"  and ms_d1.trend == "BEARISH":
             log.info("[SMC] D1 BEARISH blocks BUY — skip")
             return None

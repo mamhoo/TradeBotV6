@@ -1,5 +1,5 @@
 """
-gold_strategy.py — SUPER TRADER v7.2
+gold_strategy.py — SUPER TRADER v7.3
 
 FIXES from v6.0:
   [CRITICAL] Volume filter default changed 1.2 → 1.3 to match CONFIG
@@ -566,6 +566,12 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
         config.get("gold_lot_base", 0.01),
         config.get("gold_max_lot", 5.0),
     )
+    
+    # [CRITICAL v7.3] Small Balance Protection
+    # If balance < $100, force lot to 0.01 regardless of risk_pct
+    if config.get("gold_account_balance", 1000) < 100:
+        lot = 0.01
+        log.info("[GOLD] Small balance (<$100) — Forcing lot to 0.01 for safety")
     risk_usdt = config.get("gold_account_balance", 1000) * risk_pct / 100
 
     # 17. Partial TP

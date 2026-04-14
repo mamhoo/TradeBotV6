@@ -1,5 +1,5 @@
 """
-gold_strategy.py — SUPER TRADER v7.1
+gold_strategy.py — SUPER TRADER v7.2
 
 FIXES from v6.0:
   [CRITICAL] Volume filter default changed 1.2 → 1.3 to match CONFIG
@@ -134,11 +134,13 @@ def check_daily_trend(symbol: str, action: str, fast: int = 21, slow: int = 55) 
     penalty = 0
 
     if action == "BUY" and d1_trend == "DOWN":
-        log.info("[GOLD] D1 gate: BUY vs Daily DOWN trend — BLOCKED")
-        return False, d1_trend, 0
+        log.info("[GOLD] D1 gate: BUY vs Daily DOWN trend — Penalty -25 points (Counter-Trend)")
+        penalty = -25
+        return True, d1_trend, penalty
     elif action == "SELL" and d1_trend == "UP":
-        log.info("[GOLD] D1 gate: SELL vs Daily UP trend — BLOCKED")
-        return False, d1_trend, 0
+        log.info("[GOLD] D1 gate: SELL vs Daily UP trend — Penalty -25 points (Counter-Trend)")
+        penalty = -25
+        return True, d1_trend, penalty
     else:
         log.info("[GOLD] D1 trend: %s — %s allowed", d1_trend, action)
         return True, d1_trend, penalty
@@ -547,9 +549,14 @@ def check_gold_signal(config: dict) -> Optional[Signal]:
         if (sl - current_price) < min_stop:
             sl = current_price + min_stop + spread_buf
         tp = current_price - (sl - current_price) * rr_ratio
-
     # 16. Position sizing — [FIX] now uses broker tick_value
     risk_pct  = config.get("gold_risk_pct", 0.25)
+    
+    # [NEW v7.2] Reduce risk by 50% for counter-trend trades
+    if d1_penalty < 0:
+        risk_pct *= 0.5
+        log.info("[GOLD] Counter-trend detected — Reducing risk to %.3f%%", risk_pct)
+
     lot = calculate_lot_size(
         config.get("gold_account_balance", 1000),
         risk_pct,

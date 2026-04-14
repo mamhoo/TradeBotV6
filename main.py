@@ -1,5 +1,5 @@
 """
-main.py — SUPER TRADER v7.0 Entry Point
+main.py — SUPER TRADER v7.1 Entry Point
 
 FIXES from v6.0:
   [CRITICAL] P&L sync loop rewritten — matches closed ticket to signal by ticket ID,
@@ -426,7 +426,7 @@ def refresh_balance():
 
 if __name__ == "__main__":
     log.info("=" * 60)
-    log.info("  SUPER TRADER v7.0 - Starting")
+    log.info("  SUPER TRADER v7.1 - Starting")
     log.info("=" * 60)
 
     STARTUP_TIME = datetime.now(timezone.utc)
@@ -439,7 +439,7 @@ if __name__ == "__main__":
         log.info("[BOT] Symbol: %s | Balance: $%.2f",
                  CONFIG["mt5_symbol"], CONFIG["gold_account_balance"])
         notifier.send_plain(
-            f"SUPER TRADER v7.0 Online\n"
+            f"SUPER TRADER v7.1 Online\n"
             f"Symbol: {CONFIG['mt5_symbol']}\n"
             f"Balance: ${CONFIG['gold_account_balance']:.2f}\n"
             f"Max trades/dir: 1 | Daily loss limit: 1.5%\n"

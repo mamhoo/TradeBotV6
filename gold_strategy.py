@@ -1,5 +1,5 @@
 """
-gold_strategy.py — SUPER TRADER v7.0
+gold_strategy.py — SUPER TRADER v7.1
 
 FIXES from v6.0:
   [CRITICAL] Volume filter default changed 1.2 → 1.3 to match CONFIG
@@ -37,7 +37,7 @@ TF_MAP = {
 
 _last_sl_time: dict = {}
 COOLDOWN_BARS    = 3
-COOLDOWN_MINUTES = 45
+COOLDOWN_MINUTES = 2
 GOLD_NORMAL_ATR  = 10.0
 
 

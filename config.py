@@ -1,11 +1,11 @@
 """
-config.py — Load configuration from .env file
+config.py — v6.1 updated defaults
 
-v7.0 additions:
-  GOLD_MIN_VOLUME_RATIO   — volume threshold to block signal (default 1.3)
-  GOLD_MAX_ENTRY_DIST_PCT — anti-chase: max distance from EMA21 (default 0.004 = 0.4%)
-  GOLD_MIN_SCORE          — minimum score to trade (default 55 overlap / 60 others)
-  MAX_DAILY_LOSS_PCT      — daily halt threshold (default 1.5%, was 3.0%)
+CHANGES from v6.0:
+  GOLD_MAX_ENTRY_DIST_PCT  0.004 → 0.006  (anti-chase relaxed)
+  GOLD_MIN_VOLUME_RATIO    1.3   → 1.3    (same, but now checks completed candle)
+  GOLD_MIN_SCORE           55    → 55     (same, D1 counter-trend raises to 65)
+  MAX_DAILY_LOSS_PCT        1.5  → 1.5    (unchanged)
 """
 
 import os
@@ -55,7 +55,7 @@ CONFIG = {
     # ── Gold Strategy ─────────────────────────────────────────────────────────
     "gold_lot_base":        parse_float(os.getenv("GOLD_LOT_BASE"),       0.01),
     "gold_account_balance": parse_float(os.getenv("GOLD_ACCOUNT_BALANCE"), 50),
-    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        0.25),
+    "gold_risk_pct":        parse_float(os.getenv("GOLD_RISK_PCT"),        1.0),
     "gold_rr_ratio":        parse_float(os.getenv("GOLD_RR_RATIO"),        1.5),
     "gold_sr_lookback":     parse_int(os.getenv("GOLD_SR_LOOKBACK"),       200),
     "gold_sr_touches":      parse_int(os.getenv("GOLD_SR_TOUCHES"),        2),
@@ -67,14 +67,11 @@ CONFIG = {
     "gold_ema_slow":        parse_int(os.getenv("GOLD_EMA_SLOW"),          55),
     "gold_max_lot":         parse_float(os.getenv("GOLD_MAX_LOT"),         5.0),
 
-    # [NEW v6.0] Signal quality gates
-    "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.15),
-
-    "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            70),
+    # ── Signal quality gates (v6.1 updated) ──────────────────────────────────
+    "gold_min_volume_ratio":   parse_float(os.getenv("GOLD_MIN_VOLUME_RATIO"),   1.3),
+    "gold_max_entry_dist_pct": parse_float(os.getenv("GOLD_MAX_ENTRY_DIST_PCT"), 0.006),  # v6.1: 0.004→0.006
+    "gold_min_score":          parse_int(os.getenv("GOLD_MIN_SCORE"),            55),
     "gold_volume_filter":      True,
-    "gold_anti_chase_atr_mult": parse_float(os.getenv("GOLD_ANTI_CHASE_ATR_MULT"), 1.5),
-    "gold_rsi_lookback":        parse_int(os.getenv("GOLD_RSI_LOOKBACK"),        20),
-    "gold_sl_atr_mult":         parse_float(os.getenv("GOLD_SL_ATR_MULT"),         2.0),
 
     # ── Spread Control ────────────────────────────────────────────────────────
     "gold_max_spread_pips": parse_int(os.getenv("GOLD_MAX_SPREAD_PIPS"), 80),
@@ -86,9 +83,9 @@ CONFIG = {
     "crypto_rr_ratio":        parse_float(os.getenv("CRYPTO_RR_RATIO"),         2.0),
     "crypto_leverage":        parse_int(os.getenv("CRYPTO_LEVERAGE"),           1),
 
-    # ── Global Risk (v6.0 tightened) ─────────────────────────────────────────
-    "gold_scalp_rr":              parse_float(os.getenv("GOLD_SCALP_RR"), 1.5),
-    "max_open_trades":            2,
-    "max_trades_per_direction":   1,    # [CHANGE] was 2
-    "max_daily_loss_pct":         parse_float(os.getenv("MAX_DAILY_LOSS_PCT"), 1.0),  # [EMERGENCY] Tightened to 1.0%
+    # ── Global Risk ───────────────────────────────────────────────────────────
+    "gold_scalp_rr":            parse_float(os.getenv("GOLD_SCALP_RR"), 1.5),
+    "max_open_trades":          2,
+    "max_trades_per_direction": 1,
+    "max_daily_loss_pct":       parse_float(os.getenv("MAX_DAILY_LOSS_PCT"), 1.5),
 }

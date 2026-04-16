@@ -1,5 +1,5 @@
 """
-main.py — SUPER TRADER v7.3 Entry Point
+main.py — SUPER TRADER v7.2 Entry Point
 
 FIXES from v6.0:
   [CRITICAL] P&L sync loop rewritten — matches closed ticket to signal by ticket ID,
@@ -119,25 +119,20 @@ def get_closed_pnl_for_ticket(ticket: int) -> float:
     """
     Retrieve actual P&L from MT5 deal history for a specific position ticket.
     Searches last 48h of deals to handle weekend/holiday gaps.
-    [FIX v7.3] Uses position_id for lookup and includes swap/commission.
     """
     try:
         now = datetime.now()
         from_time = now - timedelta(hours=48)
-        # Get deals for the specific position ID (which is the ticket of the opening order)
-        deals = mt5.history_deals_get(from_time, now, position=ticket)
-        if not deals:
-            # Fallback: search all deals if position filter fails
-            deals = mt5.history_deals_get(from_time, now)
-            if not deals:
-                return 0.0
-        
-        total_pnl = 0.0
-        for d in deals:
-            if d.position_id == ticket:
-                # Sum profit, swap, and commission for the full realized P&L
-                total_pnl += (d.profit + d.swap + d.commission)
-        
+        deals = mt5.history_deals_get(from_time, now)
+        if deals is None:
+            return 0.0
+        total_pnl = sum(
+            d.profit
+            for d in deals
+            if d.position_id == ticket
+            and d.entry == mt5.DEAL_ENTRY_OUT
+            and d.magic == CONFIG["mt5_magic"]
+        )
         return total_pnl
     except Exception as e:
         log.error("[MT5] P&L fetch error for ticket %d: %s", ticket, e)
@@ -431,7 +426,7 @@ def refresh_balance():
 
 if __name__ == "__main__":
     log.info("=" * 60)
-    log.info("  SUPER TRADER v7.3 - Starting")
+    log.info("  SUPER TRADER v7.2 - Starting")
     log.info("=" * 60)
 
     STARTUP_TIME = datetime.now(timezone.utc)
@@ -444,7 +439,7 @@ if __name__ == "__main__":
         log.info("[BOT] Symbol: %s | Balance: $%.2f",
                  CONFIG["mt5_symbol"], CONFIG["gold_account_balance"])
         notifier.send_plain(
-            f"SUPER TRADER v7.3 Online\n"
+            f"SUPER TRADER v7.2 Online\n"
             f"Symbol: {CONFIG['mt5_symbol']}\n"
             f"Balance: ${CONFIG['gold_account_balance']:.2f}\n"
             f"Max trades/dir: 1 | Daily loss limit: 1.5%\n"
